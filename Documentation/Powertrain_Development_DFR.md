@@ -51,6 +51,7 @@ It's b/c in order to make power you need to put a lot of oxygen+gasoline into th
 In an 4-stroke Honda 600 F4i engine (and many engines like it), have a thing called valve overlap, which allows a cylinder to create a pressure differential from the intake's plenum (think an oxygen storage), to the cylinder itself, while the exhaust port is opening and letting the already-combusted-gases out. 
 
 Pressure differentials allow us to understand how gas will move from one place to another (think about what you learned in school about osmosis, high pressure likes to settle down by going into lower pressure). There's also things like heat to consider and most suprisingly... SOUND! 
+
 Engines are really loud. So loud to the point where it disrupts the air and a thing we call "pressure waves" in the atmosphere. But within an exhaust pipe, it's intesified even more. You see, in an hot exhaust, energy is being expelled in the form of heat, sound, and kinetic moving gas. From here we can calculate the speed of sound within the pipe.
 As the sound already disrupts the medium of air inside the pipe it goes down like a pressure wave until it encounters a change in the diameter in the pipe, from there, some of the pressure wave will refract back from the point and BACK into the exhaust port! Think about how you clap or speak into a very long pipe. It ECHOS back to you!
 
