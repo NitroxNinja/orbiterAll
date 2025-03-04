@@ -45,7 +45,7 @@ Obiviously, you'd need someone to be able to understand how all these subsystems
 
 ![image](https://github.com/user-attachments/assets/c416e047-aa99-4cf7-98ac-ca6cff74513f)
 
-*Figure 3: 365X Invictus was a successful team. Credit: https://x.com/invictus365x*
+*Figure 3: 365X Invictus was a successful team. (team in the middle with blue) Credit: https://x.com/invictus365x*
 
 ## Building the actual robot: Drivetrain 
 
