@@ -3,7 +3,7 @@
 The development of educational competition robots started with Dr.Woodie Flowers at MIT, where he made a class which later evolved to what we know as the "FIRST Robotics Competition" or FRC for short, in 1992. Later, other competitions like VEX Robotics Competition (VRC) started. 
 As a result, generations of high schoolers have made robots that would compete against each other in a game that would be designed every year- each game featuring some unique challenges to score more points than the opposing alliance to win. In my yapping session, I will talk about my experiences in VRC, since I have the most expertise on that.
 
-My writing serves to for a newer person to get a general basis on what a robot designed-to-win may look like and will glance through technical details and/or validation mathematics that often is very difficult to generalize for one single team. - By me. 
+My writing serves to for a newer person to get a general basis on what a robot designed-to-win may look like and will glance through technical details and/or validation mathematics that often is very difficult to generalize for a singular team. - By me. 
 
 ## The Competition 
 
@@ -47,11 +47,29 @@ Obiviously, you'd need someone to be able to understand how all these subsystems
 
 Figure 3: 365X Invictus was a successful team. Credit: https://x.com/invictus365x 
 
-## Building the actual robot 
+## Building the actual robot: Drivetrain 
 
 Yes, yes, yes, you've probably been bored of all the basic stuff but now it's time to get interesting. We'll start off with thinking how the robot should be built in accordance of the game. 
 
-Firstly, we'll go over drivetrains. Most people build it with omni-wheels, c-channels, bearings, gears/sprockets, and motors. There's a great video by [Kepler Electronics](https://youtu.be/VfuA2EqaIso?si=oESpQ01EnPBtNxo1) explaining the types of drives, but teams may consider doing modifications to the kinds of drives they have. Typically you want to have a **high power and torque-y** drive to be able to manuver and perhaps encounter defensive shoving from the other alliance. You may want to consider your driver's and programming abilities as well when choosing what kind of drive you want to run. 
+Firstly, we'll go over drivetrains. Most people build it with omni-wheels, c-channels, bearings, gears/sprockets, and motors. There's a great video by [Kepler Electronics](https://youtu.be/VfuA2EqaIso?si=oESpQ01EnPBtNxo1) explaining the types of drives, but teams may consider doing modifications to the kinds of drives they have. 
+
+![image](https://github.com/user-attachments/assets/13af8570-80ad-4f3c-a0e0-72eac3fc75f6)
+
+Figure 4: 5408D's Over Under drivetrain that utilized the 600 RPM cartridge motors to 4:3 external gear ratio to make a 450 RPM 3.25" omniwheel drive. Extremely fast and evasive drivetrain.  
+
+Typically you want to have a **high power and torque-y** drive to be able to manuver and perhaps encounter defensive shoving from the other alliance. You may want to consider your driver's and programming abilities as well when choosing what kind of drive you want to run. Your drive power and torque is generally determined by what kind of gear ratios you are running with your motors, and the size of wheel you're using. For starters, just build a basic tank drive with omniwheels- and experiment with different types of gearing and how you will link of the structure. In recent years it has become more acceptable to build high speed drives capable of going 6.43 ft/s. Many teams will run **a 450 RPM on 3.25" drive** like the picture above. There are options of 3.25" on 360RPM or 4.25" on 257 RPM or even 2.75" on 600RPM. Generally picking smaller wheels is prevalent due to less weight, but that comes at the cost of reducing tractive force, but in VEX it's almost negligble. 
+
+You also want to take into consideration chassis design, and how structure you need it to be. Many new teams struggle on knowing what's a "durable" chassis, or they may sometimes overbuild it and take on extra weight they don't need or structures that ruin the packaging (the way how subsystems fit on the robot). The best way to know you've built it strong enough is to do a "torsion-test". Pick up your sandwiched drivetrain with both hands and twist in opposite directions. If it doesn't twist too much relative to the amount of force you're putting in (like if it bends less than 15-20 degrees) you're good. If not you may need to reconsider how you place your chassis bars across, or how much support you need. 
+
+If you're robot needs to be able to climb an object, consider using sleds (curvy bent pieces of plastic/metal that glide up bumps), using bigger wheels, or moving any obstruction in the robot's underbelly. Consider how the robot will make traction with the ground/bump and you can decide how to layout a drive train. You could go low with benefits of better handling and less tippy-ness, at the cost of not being able to climb a 1" bump. Or you could go high with benefits of being to climb over most obstacles, at the cost of a less controllable/heavier driving dynamic. 
+
+![image](https://github.com/user-attachments/assets/b5d502be-2902-4e64-b4d7-1b1443bb39c1)
+
+Figure 5: 8059A's Turning Point robot was a tanky-high robot that was hard to shake, but manuverable enough to cause a ruckus in the Dome. 
+
+Past this I may get nit-picky if you leave the flange in or out, in a sandwiched drive train (where wheels are "sandwiched" in between 2 c-channels). Some people may also ask why you made your drive base 25 holes wide or 30 holes wide, and you could justify it with "reduced weight" or a "more nimble/smaller" robot. 
+
+You must learn how to mess with gear ratios and your structure placement, keeping things square, and such to have a "successful" drive train.
 
 
 
