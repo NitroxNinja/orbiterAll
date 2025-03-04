@@ -12,7 +12,8 @@ Contents are
 - What's so significant about exhaust?
 - What we did.
 - Experimentation and Tuning
-- Manufacturing 
+- Manufacturing
+- Conclusion
 
 ## What's the experience like? 
 
@@ -107,4 +108,12 @@ As far as I understand, and I will be taking from Noah H. from Long Horn Racing,
 If you want to read more about welding and manufacturing in general, please read his document, it's very helpful and compiles more sources. 
 
 Noah's good tips: https://cloud.wikis.utexas.edu/wiki/external/YTRhMDdmNjlhZjZkNGM3YThjMDUyOGExN2YwODBhMjk 
+
+## Conclusion 
+
+So in summary, in order to be successful/or to make the most out of your time in DFR is to try to talk with older members and see if you can contribute a lot at your project. Take small, but necessary steps to where you want to be. Do you want to take on more endearing projects? You'd have to prove it to them. It doesn't matter how small your project is, you need to perform your absolute best on selling your part and in return you will gain more positions in this rather bureaucratic organization. DFR served as a rough albeit necessary way for me to grow as an engineer, and I plan on contributing for awhile.
+
+I do wish to change and transform on what being DFR member means though, something where politics and learning is foster more rather than doing independent research. There seems to be a massive knowledge retension issue, and I hope my writing gets to you, and inspires something to change. There's a lot of smart people here, but do they know how to win? Not precisely, and I want to bring that culture of learning and friendship. Yes you'll feel like trying to break into a clique, but just be friendly and move on if you need to. 
+
+
 
