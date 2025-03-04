@@ -1,9 +1,9 @@
-## Intro 
+# Intro 
 
 The development of educational competition robots started with Dr.Woodie Flowers at MIT, where he made a class which later evolved to what we know as the "FIRST Robotics Competition" or FRC for short, in 1992. Later, other competitions like VEX Robotics Competition (VRC) started. 
 As a result, generations of high schoolers have made robots that would compete against each other in a game that would be designed every year- each game featuring some unique challenges to score more points than the opposing alliance to win. In my yapping session, I will talk about my experiences in VRC, since I have the most expertise on that.
 
-# Basic Rules 
+## Basic Rules 
 
 There are a unique set of rules every single robot has to follow in order to compete in a competition. Here are some examples: 
 - 18" x 18" x 18" size limit
@@ -12,7 +12,7 @@ There are a unique set of rules every single robot has to follow in order to com
 - No welding, no mods to electronics
 - Bunch of other stuff
 
-# Subsystems and their Applications 
+## Subsystems and their Applications 
 
 In competitive robotics, there are things we call subsystems that make up portions of a whole robot that contribute to it's function there are 
 - Drivetrains. Some propulsion or wheeled-based movement to go around the field
