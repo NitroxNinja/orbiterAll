@@ -21,6 +21,7 @@ In competitive robotics, there are things we call subsystems that make up portio
 - Extraneous mechanism(s). Some games may require to have a lifting mechanism, or like a unique "end-game" piece to score points, this often is known to be the "innovative factor" to robots, and varies wildly across games. 
 
 ![image](https://github.com/user-attachments/assets/3398470d-250a-4572-a8e4-f320209dc911)
+
 Figure 1: 5408D's Spin Up Robot, with all the mentioned subsystems. 
 
 
