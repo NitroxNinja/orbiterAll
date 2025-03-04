@@ -11,8 +11,8 @@ Every single year, the game design committee reveals a new game every year, whic
 
 ![image](https://github.com/user-attachments/assets/f4164185-f21d-4300-ad47-02d37942f89d)
 
-Figure 1: 5408R's Turning Point Robot in the field. The game is played by flipping colored flags to your color by shooting balls. You can also score discs on poles facing the correct color, or flip them on the ground. Lastly you can climb the platform for bonus points, if you can stay on it. 
-
+_Figure 1: 5408R's Turning Point Robot in the field. The game is played by flipping colored flags to your color by shooting balls. You can also score discs on poles facing the correct color, or flip them on the ground. Lastly you can climb the platform for bonus points, if you can stay on it. 
+_
 ## Basic Rules 
 
 There are a unique set of rules every single robot has to follow in order to compete in a competition. Here are some examples: 
@@ -32,8 +32,8 @@ In competitive robotics, there are things we call subsystems that make up portio
 
 ![image](https://github.com/user-attachments/assets/3398470d-250a-4572-a8e4-f320209dc911)
 
-Figure 2: 5408D's Spin Up Robot, with all the mentioned subsystems. 
-
+_Figure 2: 5408D's Spin Up Robot, with all the mentioned subsystems. 
+_
 ## Team Roles 
 
 Obiviously, you'd need someone to be able to understand how all these subsystems come as a whole, but you'd imagine if a robot were to perform all the basic scoring capabilities well, it is enough for a winning robot. You'd also need to delegate or absorb some roles of being an mechanical dude, a programmer dude, a driver dude, and even a documentation dude. There may also be some marketing person/budget but we don't count those.
@@ -45,8 +45,8 @@ Obiviously, you'd need someone to be able to understand how all these subsystems
 
 ![image](https://github.com/user-attachments/assets/c416e047-aa99-4cf7-98ac-ca6cff74513f)
 
-Figure 3: 365X Invictus was a successful team. Credit: https://x.com/invictus365x 
-
+_Figure 3: 365X Invictus was a successful team. Credit: https://x.com/invictus365x 
+_
 ## Building the actual robot: Drivetrain 
 
 Yes, yes, yes, you've probably been bored of all the basic stuff but now it's time to get interesting. We'll start off with thinking how the robot should be built in accordance of the game. 
@@ -55,8 +55,8 @@ Firstly, we'll go over drivetrains. Most people build it with omni-wheels, c-cha
 
 ![image](https://github.com/user-attachments/assets/13af8570-80ad-4f3c-a0e0-72eac3fc75f6)
 
-Figure 4: 5408D's Over Under drivetrain that utilized the 600 RPM cartridge motors to 4:3 external gear ratio to make a 450 RPM 3.25" omniwheel drive. Extremely fast and evasive drivetrain.  
-
+_Figure 4: 5408D's Over Under drivetrain that utilized the 600 RPM cartridge motors to 4:3 external gear ratio to make a 450 RPM 3.25" omniwheel drive. Extremely fast and evasive drivetrain.  
+_
 Typically you want to have a **high power and torque-y** drive to be able to manuver and perhaps encounter defensive shoving from the other alliance. You may want to consider your driver's and programming abilities as well when choosing what kind of drive you want to run. Your drive power and torque is generally determined by what kind of gear ratios you are running with your motors, and the size of wheel you're using. For starters, just build a basic tank drive with omniwheels- and experiment with different types of gearing and how you will link of the structure. In recent years it has become more acceptable to build high speed drives capable of going 6.43 ft/s. Many teams will run **a 450 RPM on 3.25" drive** like the picture above. There are options of 3.25" on 360RPM or 4.25" on 257 RPM or even 2.75" on 600RPM. Generally picking smaller wheels is prevalent due to less weight, but that comes at the cost of reducing tractive force, but in VEX it's almost negligble. 
 
 You also want to take into consideration chassis design, and how structure you need it to be. Many new teams struggle on knowing what's a "durable" chassis, or they may sometimes overbuild it and take on extra weight they don't need or structures that ruin the packaging (the way how subsystems fit on the robot). The best way to know you've built it strong enough is to do a "torsion-test". Pick up your sandwiched drivetrain with both hands and twist in opposite directions. If it doesn't twist too much relative to the amount of force you're putting in (like if it bends less than 15-20 degrees) you're good. If not you may need to reconsider how you place your chassis bars across, or how much support you need. 
@@ -65,7 +65,12 @@ If you're robot needs to be able to climb an object, consider using sleds (curvy
 
 ![image](https://github.com/user-attachments/assets/b5d502be-2902-4e64-b4d7-1b1443bb39c1)
 
-Figure 5: 8059A's Turning Point robot was a tanky-high robot that was hard to shake, but manuverable enough to cause a ruckus in the Dome. 
+_Figure 5: 8059A's Turning Point robot was a tanky-high robot that was hard to shake, but manuverable enough to cause a ruckus in the Dome. 
+_
+![image](https://github.com/user-attachments/assets/4c745965-9a7f-46a8-bd20-4bddff976b45)
+
+_Figure 6: 5408D's Spin Up robot was basically touching the ground, and was incredibly fast with a 2.75" 600RPM drive, but could not climb over a 1 inch ledge. Low life or no life.
+_
 
 Past this I may get nit-picky if you leave the flange in or out, in a sandwiched drive train (where wheels are "sandwiched" in between 2 c-channels). Some people may also ask why you made your drive base 25 holes wide or 30 holes wide, and you could justify it with "reduced weight" or a "more nimble/smaller" robot. 
 
