@@ -32,7 +32,7 @@ In competitive robotics, there are things we call subsystems that make up portio
 
 ![image](https://github.com/user-attachments/assets/3398470d-250a-4572-a8e4-f320209dc911)
 
-*Figure 2: 5408D's Spin Up Robot, with all the mentioned subsystems. *
+*Figure 2: 5408D's Spin Up Robot, with all the mentioned subsystems.*
   
 ## Team Roles 
 
@@ -65,7 +65,7 @@ If you're robot needs to be able to climb an object, consider using sleds (curvy
 
 ![image](https://github.com/user-attachments/assets/b5d502be-2902-4e64-b4d7-1b1443bb39c1)
 
-*Figure 5: 8059A's Turning Point robot was a tanky-high robot that was hard to shake, but manuverable enough to cause a ruckus in the Dome. *
+*Figure 5: 8059A's Turning Point robot was a tanky-high robot that was hard to shake, but manuverable enough to cause a ruckus in the Dome.*
 
 ![image](https://github.com/user-attachments/assets/4c745965-9a7f-46a8-bd20-4bddff976b45)
 
