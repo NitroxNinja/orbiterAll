@@ -71,7 +71,7 @@ If you're robot needs to be able to climb an object, consider using sleds (curvy
 
 *Figure 6: 5408D's Spin Up robot was basically touching the ground, and was incredibly fast with a 2.75" 600RPM drive, but could not climb over a 1 inch ledge. Low life or no life.*
 
-Past this I may get nit-picky if you leave the flange in or out, in a sandwiched drive train (where wheels are "sandwiched" in between 2 c-channels). Some people may also ask why you made your drive base 25 holes wide or 30 holes wide, and you could justify it with "reduced weight" or a "more nimble/smaller" robot. 
+Past this I may get nit-picky if you leave the flange in or out, in a sandwiched drive train (where wheels are "sandwiched" in between 2 c-channels). Some people may also ask why you made your drive base 25 holes wide or 30 holes wide, and you could justify it with "reduced weight" or a "more nimble/smaller" robot. Length is often questioned to, and understanding your wheel base, and how it may affect movement. This is incredibly helpful to know as a programmer who may be programming an odometry system and may need to understand how to model a chassis's movements based off the location of it's rotating wheels. Some teams may opt to have a convex or concave opening at the ends of their drives to fit extra mechanisms or pieces.
 
 You must learn how to mess with gear ratios and your structure placement, keeping things square, and such to have a "successful" drive train.
 
