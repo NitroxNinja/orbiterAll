@@ -77,10 +77,12 @@ We also were able to justify the usage of a titanium exhaust over a stainless st
 Based off the mathematics we did and research papers, we ran a basic CFD simulation that was... admittedly ran with trash b/c Solidworks CFD uses k-ɛ model for the meshing kind of situation (?). The thing is that we must account for heat and sonic flow. As a result, when we showed this, we got roasted and were told to throw it away. However we were able to justify, even with a trash simulation, taking into consideration the friction of the walls, and the complex geometry due to the packaging constraints justified our equal length runners (or EL runners for short). 
 That means there is very little cross-disruption in how pressure waves will behave at the collector (where all the 4 pipes merge from the engine into 1), meaning the internal flow won't generate too much backpressure, and will be less turbulent. 
 
-![image](https://github.com/user-attachments/assets/0d397baf-f395-47a9-9028-dbe17f5b4aad)
+![image](https://github.com/user-attachments/assets/0d397baf-f395-47a9-9028-dbe17f5b4aad
+
 *Learning CFD for the first time*
 
-As a newer member, we are very far from understanding if it's important to care if there's turbulent or assuming laminar flow, b/c if we did not understand the physics of it, we could not **defend** or justify the design to the boss (Chief Engineer). I can't provide any more mathematical/technical details on sonic-to-supersonic flows and Reynolds values of an exhaust pipe, so I recommend reading up on that. 
+As a newer member, we are very far from understanding if it's important to care if there's turbulent or assuming laminar flow, b/c if we did not understand the physics of it, we could not **defend** or justify the design to the boss (Chief Engineer). Running simulations DOES NOT give you a easy "Yes or No" answer and it's rather more complicated than that. You must consider the validity of your boundary conditions, the model you're using, or even if your numbers seem real. From there it will provide a multitude of results on what to expect on a designed part - otherwise it's back to the drawing board. 
+I can't provide any more mathematical/technical details on sonic-to-supersonic flows and Reynolds values of an exhaust pipe, so I recommend reading up on that. 
 
 ## Experimentation and Testing 
 
@@ -92,9 +94,11 @@ Also literally no one knew what a closed-feedback-loop on the tunes. When we wer
 After awhile, they were convinced and finally put it in. I guess that's one thing I'm proud about. 
 
 ![image](https://github.com/user-attachments/assets/99d1b1ff-d359-4773-8c01-4bff11853e54)
+
 *Fuel injection testing* 
 
 ![image](https://github.com/user-attachments/assets/f6e8d7e7-3ec9-4f0c-a975-245b802d11ac)
+
 *Dyno Testing*
 
 ## Manufacturing 
