@@ -77,7 +77,7 @@ We also were able to justify the usage of a titanium exhaust over a stainless st
 Based off the mathematics we did and research papers, we ran a basic CFD simulation that was... admittedly ran with trash b/c Solidworks CFD uses k-ɛ model for the meshing kind of situation (?). The thing is that we must account for heat and sonic flow. As a result, when we showed this, we got roasted and were told to throw it away. However we were able to justify, even with a trash simulation, taking into consideration the friction of the walls, and the complex geometry due to the packaging constraints justified our equal length runners (or EL runners for short). 
 That means there is very little cross-disruption in how pressure waves will behave at the collector (where all the 4 pipes merge from the engine into 1), meaning the internal flow won't generate too much backpressure, and will be less turbulent. 
 
-![image](https://github.com/user-attachments/assets/0d397baf-f395-47a9-9028-dbe17f5b4aad
+![image](https://github.com/user-attachments/assets/0d397baf-f395-47a9-9028-dbe17f5b4aad)
 
 *Learning CFD for the first time*
 
