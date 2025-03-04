@@ -51,8 +51,7 @@ Figure 3: 365X Invictus was a successful team. Credit: https://x.com/invictus365
 
 Yes, yes, yes, you've probably been bored of all the basic stuff but now it's time to get interesting. We'll start off with thinking how the robot should be built in accordance of the game. 
 
-Firstly, we'll go over drivetrains. Most people build it with omni-wheels, c-channels, bearings, gears/sprockets, and motors. There's a great video by ([`Kepler Electronics`]([https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main](https://youtu.be/VfuA2EqaIso?si=oESpQ01EnPBtNxo1)) will be automatically updated through CI)
- explaing the types of drives, but teams may consider doing modifications to the kinds of drives they have. Typically you want to have a **high power and torque-y** drive to be able to manuver and perhaps encounter defensive shoving from the other alliance. You may want to consider your driver's and programming abilities as well when choosing what kind of drive you want to run. 
+Firstly, we'll go over drivetrains. Most people build it with omni-wheels, c-channels, bearings, gears/sprockets, and motors. There's a great video by [Kepler Electronics](https://youtu.be/VfuA2EqaIso?si=oESpQ01EnPBtNxo1) explaining the types of drives, but teams may consider doing modifications to the kinds of drives they have. Typically you want to have a **high power and torque-y** drive to be able to manuver and perhaps encounter defensive shoving from the other alliance. You may want to consider your driver's and programming abilities as well when choosing what kind of drive you want to run. 
 
 
 
