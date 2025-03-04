@@ -1,6 +1,6 @@
 # Intro 
 
-This is an account of events that happened with my time in Dallas Formula Racing (DFR) on the powertrain subteam and how might a new team member may expect to succeed or not. 
+My name is NitroxNinja. This is an account of events that happened with my time in Dallas Formula Racing (DFR) on the powertrain subteam and how might a new team member may expect to succeed or not. 
 To ask why a person may want to join my establishment is quite pecuilar as we all find our own reasons to join, regardless if we like it or not. 
 
 ![image](https://github.com/user-attachments/assets/02ffd9e7-2b50-43b0-bb51-556088a62ff3)
