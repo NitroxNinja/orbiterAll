@@ -73,6 +73,17 @@ If you're robot needs to be able to climb an object, consider using sleds (curvy
 
 Past this I may get nit-picky if you leave the flange in or out, in a sandwiched drive train (where wheels are "sandwiched" in between 2 c-channels). Some people may also ask why you made your drive base 25 holes wide or 30 holes wide, and you could justify it with "reduced weight" or a "more nimble/smaller" robot. Length is often questioned to, and understanding your wheel base, and how it may affect movement. This is incredibly helpful to know as a programmer who may be programming an odometry system and may need to understand how to model a chassis's movements based off the location of it's rotating wheels. Some teams may opt to have a convex or concave opening at the ends of their drives to fit extra mechanisms or pieces.
 
+In Kepler's video, he also mentioned different kinds of wheels and setups, that are rather "fully-holonomic" meaning there is active power movement in all directions on the 2D plane. Of these there are meccanum wheels (kind of like omni wheels, but they are angled and if you rotate certain wheels they go sideways), and X-drive 
+
+![image](https://github.com/user-attachments/assets/ed143060-d43b-440c-b802-8600d97f770f)
+
+*Figure 7: 7K's Tower Takeover robot used meccanum wheels to go side to side to score in tight corners*
+
+![image](https://github.com/user-attachments/assets/fd5aaec3-8fdf-42ff-bfbb-bdff2f17ff8b)
+
+*Figure 8: 4253B's X-drive with odometry tracking wheels to go side to side*
+
+
 You must learn how to mess with gear ratios and your structure placement, keeping things square, and such to have a "successful" drive train.
 
 
