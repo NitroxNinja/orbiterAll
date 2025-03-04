@@ -3,6 +3,16 @@
 The development of educational competition robots started with Dr.Woodie Flowers at MIT, where he made a class which later evolved to what we know as the "FIRST Robotics Competition" or FRC for short, in 1992. Later, other competitions like VEX Robotics Competition (VRC) started. 
 As a result, generations of high schoolers have made robots that would compete against each other in a game that would be designed every year- each game featuring some unique challenges to score more points than the opposing alliance to win. In my yapping session, I will talk about my experiences in VRC, since I have the most expertise on that.
 
+My writing serves to for a newer person to get a general basis on what a robot designed-to-win may look like and will glance through technical details and/or validation mathematics that often is very difficult to generalize for one single team. - By me. 
+
+## The Competition 
+
+Every single year, the game design committee reveals a new game every year, which often combines multiple elements of game objects, rules, and other nit-picky details. Matches are often played in a 2v2 format, where each set of 2 teams is called an alliance, red versus blue. Whoever scores the most points by placing the game objects in the right place, achieving certain tasks or whatnot, wins the match. There is a 15 second autonomous period, where the robot moves by itself and the 1 minute and 45 second driver/tele-operated period where the person on the controller takes control. 
+
+![image](https://github.com/user-attachments/assets/f4164185-f21d-4300-ad47-02d37942f89d)
+
+Figure 1: 5408R's Turning Point Robot in the field. The game is played by flipping colored flags to your color by shooting balls. You can also score discs on poles facing the correct color, or flip them on the ground. Lastly you can climb the platform for bonus points, if you can stay on it. 
+
 ## Basic Rules 
 
 There are a unique set of rules every single robot has to follow in order to compete in a competition. Here are some examples: 
@@ -22,10 +32,27 @@ In competitive robotics, there are things we call subsystems that make up portio
 
 ![image](https://github.com/user-attachments/assets/3398470d-250a-4572-a8e4-f320209dc911)
 
-Figure 1: 5408D's Spin Up Robot, with all the mentioned subsystems. 
+Figure 2: 5408D's Spin Up Robot, with all the mentioned subsystems. 
 
+## Team Roles 
 
-  
+Obiviously, you'd need someone to be able to understand how all these subsystems come as a whole, but you'd imagine if a robot were to perform all the basic scoring capabilities well, it is enough for a winning robot. You'd also need to delegate or absorb some roles of being an mechanical dude, a programmer dude, a driver dude, and even a documentation dude. There may also be some marketing person/budget but we don't count those.
+- **Mechanical dude**. This person is in charge of construction of the robot. They could use CAD, or if you're a pro, you use your brain to develop physical systems of the robot. They will use the VEX metal, motors, gears, and other gimmicks but also could custom design parts using polycarbonate or lexan.
+- **Programmer dude**. This person is the most nerdiest, and will often use C++ and a thing called VEXCode or PROS (or the Purdue Robotics Operating System). They will be in charge of programming basic drive/controller functions of the robot, and how the robot will interact with the field through driver/autonomous periods. As you get more accustomed to programming you'd dive into things like GUI, PID, odometry, motion profiling, which involve a little bit more math and thinking.
+- **Driver dude**. This person gets to have the most fun, but also takes up the brunt of responsibility to whatever happens to the robot (during the driver control period). They will often have a drive coach (usually one of their own teammates) help him guide on the next decision. They must get very well versed with their robot's dynamics through driving/behaviors.
+- **Documentation dude**. This person is optional, but if you would like to win judged awards like Excellence or Design, this role is it. People can often look back to previous designs and "reiterate" but let's be honest the agile manifesto is kind of a bothersome task in the context of high school robotics. The best engineering design" is often sold through this person, and they must not only learn the technicalities of the robot but must explain it to a person who may know nothing about robots. They must lead through the interviews and learn how to be really good at it.
+- **Marketing and/or Accounting dude**. This person is in charge of getting sponsors, making the team look cool on social media, and managing budget of the whole team. Generally this one is pretty easy, but you can learn some neat stuff like editing, or feasibility kinds of things. 
+
+![image](https://github.com/user-attachments/assets/c416e047-aa99-4cf7-98ac-ca6cff74513f)
+
+Figure 3: 365X Invictus was a successful team. Credit: https://x.com/invictus365x 
+
+## Building the actual robot 
+
+Yes, yes, yes, you've probably been bored of all the basic stuff but now it's time to get interesting. We'll start off with thinking how the robot should be built in accordance of the game. 
+
+Firstly, we'll go over drivetrains. Most people build it with omni-wheels, c-channels, bearings, gears/sprockets, and motors. There's a great video by ([`Kepler Electronics`]([https://github.com/Lin-jun-xiang/action-translate-markdown/tree/main](https://youtu.be/VfuA2EqaIso?si=oESpQ01EnPBtNxo1)) will be automatically updated through CI)
+ explaing the types of drives, but teams may consider doing modifications to the kinds of drives they have. Typically you want to have a **high power and torque-y** drive to be able to manuver and perhaps encounter defensive shoving from the other alliance. You may want to consider your driver's and programming abilities as well when choosing what kind of drive you want to run. 
 
 
 
