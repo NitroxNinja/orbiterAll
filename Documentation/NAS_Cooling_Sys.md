@@ -1,4 +1,5 @@
 ##Intro
+
 A NAS or Network Attached Storage is a kind of thing I have at my house for an extrananeous storage for files if ya' know what I mean. This paired along with a remote access system can possible help us store a large amount of files. 
 
 
@@ -11,6 +12,7 @@ One of the goals of this project is to create an overly-effective cooling system
 THE PROBLEM IS the heat sync and the PCB "hat" restricts our cooling space significantly, 
 
 ##Testing 
+
 So for a proof of concept, we ran the NAS as is, without any cooling systems, and found out after about 2 minutes of running it got to a temperature of 60 degrees C. 
 For reference, normally you do not want your PCB to melt b/c it will result in reduced performance, long-term damage and such.
 
