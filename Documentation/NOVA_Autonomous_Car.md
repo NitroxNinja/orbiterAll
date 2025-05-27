@@ -16,7 +16,7 @@ However, when configuring with it we realized we had issues with updating the im
 
 ## Newer Developments and Ambitions 
 
-The bottleneck in development as in right now comes with localization systems. Previously we were using SLAM KISS-ICP, however this can be pretty ineffective with the vehicle is doing fast movements or sudden turns... well which all cars kind of do on a daily basis. This is b/c SLAM KISS-ICP purely relies on LiDAR readings (which the Ouster 128-channel LiDAR provides around 10 Hz or 10 frames of point clouds a second). This leaves a lot of room for interpolation, which is technically a bad thing. Although LiDAR point clouds are extremly accurate of themselves in terms of capturing the environment, it takes a lot of computational power from the computer. 
+The bottleneck in development as in right now comes with localization systems. Previously we were using SLAM KISS-ICP, however this can be pretty ineffective with the vehicle is doing fast movements or sudden turns... well which all cars kind of do on a daily basis. This is b/c SLAM KISS-ICP purely relies on LiDAR readings (which the Ouster 128-channel LiDAR provides around 10 Hz or 10 frames of point clouds a second). This leaves a lot of room for interpolation, which is technically a bad thing. Although LiDAR point clouds are extremly accurate of themselves in terms of capturing the environment, it takes a lot of computational power from the computer. I'd also like to briefly shout out to Mr. Kevin Ge, a fellow student at UTD who had partially inspired me to take on this task. He did most of the work for SLAM-KISS-ICP and now it's time for me to take it on. 
 
 One article I stumbled across evolves SLAM KISS-ICP and combines it with the usage of an 6-axis IMU (inertial measurement unit, x,y,z,roll, yaw, pitch). This method is called LIO-EKF (LiDAR Inertial Odometry
 using Extended Kalman Filter). The advantage of using a IMU comes with having a higher frame rate of readings (think more than 1000Hz) so you can measure how far you went forward, how much you turned, etc. 
@@ -24,5 +24,6 @@ using Extended Kalman Filter). The advantage of using a IMU comes with having a 
 The problem comes with that using an IMU alone leaves localization prone to a lot of noise, or misrepresented readings from the environment. But if you have a LiDAR to sort of validate where you are, you can update the usage of a IMU per every point cloud generated. Thus, the interpolation of the various spots the car may have been is made a little more accurate, limiting drift and such. This is the part of what an "extended kalman filter" is, which takes a variety of sensors inputs and intreprets it to give a more accurate number/results for the computer. 
 
 ![image](https://github.com/user-attachments/assets/59ad359e-9392-4b84-ac53-b30b067497e6)
+
 (credit goes to Yibin Wu and et al.)
 
