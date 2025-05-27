@@ -1,3 +1,6 @@
+## Preface
+Below is kind of me documenting my time working at this company that makes roofing products. I am mostly writing this to keep track of how far and what kind of things I've done over the 13-14 weeks I will be doing this job. The information in this file is not to be a 1:1 match of real, high quality, machines for roofing products. 
+
 INTRODUCTION: 
 The creation of an asphalt shingle starts with a dry mat or fiberglass roll that goes through a thing call an accumulator. The accumulator acts as a way to continually hold a large volume of the fiberglass rolls as production must be continuous. The dry mat is then continually switched throughout the day by an operator(or person) that rotates on a stand and is spliced on a machine as it passes through. 
 Next it is coated with a very hot mixture of mineral fortified asphalt (around 440 degrees F) is layered onto the accumulated fiberglass sheet. It is then slated with asphalt/limestone mixture and is packed/pressed into the roll. This then goes to be cooler which uses air and water sprayers to reach a desired temperature. The setpoint and the temperature of the shingle roll is taken into account and 3 to 4 sprayers may be used depending on the speed (thermodynamics). 
