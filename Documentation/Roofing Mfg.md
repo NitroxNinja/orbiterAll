@@ -1,7 +1,7 @@
-## Preface
+# Preface
 Below is kind of me documenting my time working at this company that makes roofing products. I am mostly writing this to keep track of how far and what kind of things I've done over the 13-14 weeks I will be doing this job. The information in this file is not to be a 1:1 match of real, high quality, machines for roofing products. 
 
-INTRODUCTION: 
+## INTRODUCTION: 
 The creation of an asphalt shingle starts with a dry mat or fiberglass roll that goes through a thing call an accumulator. The accumulator acts as a way to continually hold a large volume of the fiberglass rolls as production must be continuous. The dry mat is then continually switched throughout the day by an operator(or person) that rotates on a stand and is spliced on a machine as it passes through. 
 Next it is coated with a very hot mixture of mineral fortified asphalt (around 440 degrees F) is layered onto the accumulated fiberglass sheet. It is then slated with asphalt/limestone mixture and is packed/pressed into the roll. This then goes to be cooler which uses air and water sprayers to reach a desired temperature. The setpoint and the temperature of the shingle roll is taken into account and 3 to 4 sprayers may be used depending on the speed (thermodynamics). 
 This then goes to the FPL (finished product looper), which takes 20-35% capacity of the accumulated sheet (you’ll hear the loud banging, simply from the speed of it curling up and rupturing after reaching a suddenly slow speed) from all the shingles lining up ready to go to it). 
@@ -12,7 +12,8 @@ Laminator System
 Soap Applicator System 
 Bundling Wrapper and Film Unwind stand
  
-1st week analysis:
+## 1st week analysis:
+
 -	Every part added to the SOP complicates tasks for workers and requires time and money to train. 
 -	ESSA model (Eliminate, simplify, systematize, automate) … part of lean mfg., which is a part of the Toyota Production System.  
 -	Genchi genbutsu (go see for yourself) has been practiced. 
@@ -33,8 +34,11 @@ Bundling Wrapper and Film Unwind stand
 -	PdM via a machine learning model and sensor readings may be helpful, but to connect the HMIs (or computers that are in production) may require some networking skills and IoT ideas that may not get approved.
 -	Perhaps create a LAN through switches and routers although I am not sure if that will get approved.  
 -	Talk to Abel on how to see data from the computer. 
--	Understanding from the variety of quality tests, shingles must meet certain standards set by the ASTM. There is a temperature tests, a sort of asphalt boiling test that I can’t remember, a tear test, a sand granule fine mesh sieve test. 
-2nd week analysis: 
+-	Understanding from the variety of quality tests, shingles must meet certain standards set by the ASTM. There is a temperature tests, a sort of asphalt boiling test that I can’t remember, a tear test, a sand granule fine mesh sieve test.
+
+  
+## 2nd week analysis: 
+
 -	PROJECT ASSIGNED: Something in regards to the granule system, requiring a size 14 granule size, why can’t we break up the granules a little more(?). I am asked to define the problem first, very clearly, and this is to be presented on a weekly basis. (I have to get to know the PowerPoint format and the excel progress document.  )
 Tips for this: Read OEM’s manuals, read theory of operation, in fact just read everything in regards before making a crazy decision to change a major part of the system. 
 -	As in right now I am reading Aravind’s presentation over how to set up the presentation and things like that. 
