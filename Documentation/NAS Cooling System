@@ -13,5 +13,8 @@ THE PROBLEM IS the heat sync and the PCB "hat" restricts our cooling space signi
 
 Testing 
 
-So for a proof of concept, we ran the NAS as is, without any cooling systems, and found out after about 2 minutes of running it got to a temperature of 60 degrees C. For reference, normally you do not want your PCB to melt b/c it will result in reduced performance, long-term damage and such.
+So for a proof of concept, we ran the NAS as is, without any cooling systems, and found out after about 2 minutes of running it got to a temperature of 60 degrees C. 
+For reference, normally you do not want your PCB to melt b/c it will result in reduced performance, long-term damage and such.
 
+I also wanted to test the natural CFM of a fan at different rates, and while I didn't have a pitot tube, I can alternatively CAD up the blades, spin it at a certain RPM of which I can approximate. 
+This is b/c I wanted to add a sort of venturi effect to the cooling system since the heat sync is in a restricted place. 
