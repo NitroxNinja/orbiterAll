@@ -1,6 +1,6 @@
 # Intro 
 
-NOVA Autonomous Car is a open-source research project for UTD students to make a fully autonomous car. 
+NOVA Autonomous Car is a open-source research project for UTD students to make a fully autonomous car. (led by Dr. Justin Ruths, mechanical engineering professor here) 
 
 So at first I started out by 3D printing some cameras, and then getting it parametricized and stiched into an image so that our developers can do some cool stuff with it. 
 
@@ -13,3 +13,16 @@ Essentially, we are permitted the use of just a LiDAR, since they often have pro
 However, when configuring with it we realized we had issues with updating the images to our small computer (NVIDIA AGX Orin), as it was supposed to upload at a theoretical 15 Hz, however it was doing less than 1 Hz, lol. So we not only needed to make the camera mounts better, but also improve the hardware or improve the code that is used to process all that data. It was also drifting somehow, so perhaps we put in the wrong constants, but we will try to get something to work eventually. 
 
 ![image](https://github.com/user-attachments/assets/b4d89711-5a3e-422b-a740-eb59b4545703)
+
+## Newer Developments and Ambitions 
+
+The bottleneck in development as in right now comes with localization systems. Previously we were using SLAM KISS-ICP, however this can be pretty ineffective with the vehicle is doing fast movements or sudden turns... well which all cars kind of do on a daily basis. This is b/c SLAM KISS-ICP purely relies on LiDAR readings (which the Ouster 128-channel LiDAR provides around 10 Hz or 10 frames of point clouds a second). This leaves a lot of room for interpolation, which is technically a bad thing. Although LiDAR point clouds are extremly accurate of themselves in terms of capturing the environment, it takes a lot of computational power from the computer. 
+
+One article I stumbled across evolves SLAM KISS-ICP and combines it with the usage of an 6-axis IMU (inertial measurement unit, x,y,z,roll, yaw, pitch). This method is called LIO-EKF (LiDAR Inertial Odometry
+using Extended Kalman Filter). The advantage of using a IMU comes with having a higher frame rate of readings (think more than 1000Hz) so you can measure how far you went forward, how much you turned, etc. 
+
+The problem comes with that using an IMU alone leaves localization prone to a lot of noise, or misrepresented readings from the environment. But if you have a LiDAR to sort of validate where you are, you can update the usage of a IMU per every point cloud generated. Thus, the interpolation of the various spots the car may have been is made a little more accurate, limiting drift and such. This is the part of what an "extended kalman filter" is, which takes a variety of sensors inputs and intreprets it to give a more accurate number/results for the computer. 
+
+![image](https://github.com/user-attachments/assets/59ad359e-9392-4b84-ac53-b30b067497e6)
+(credit goes to Yibin Wu and et al.)
+
