@@ -18,3 +18,7 @@ For reference, normally you do not want your PCB to melt b/c it will result in r
 
 I also wanted to test the natural CFM of a fan at different rates, and while I didn't have a pitot tube, I can alternatively CAD up the blades, imaginary spin it at a certain RPM of which I can approximate, and then run it all through CFD. 
 This is b/c I wanted to add a sort of venturi effect to the cooling system since the heat sync is in a restricted place. 
+
+## Softwares and Electronics 
+
+ESP32 boards offer a lot of capabilities that allow this NAS to work. I am unsure how to program it, but I'll learn anyways. Embedded is cool. 
