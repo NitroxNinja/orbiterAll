@@ -101,15 +101,27 @@ I normally build with a specific style that could not be mistaken with anyone el
 
 ![image](https://github.com/user-attachments/assets/4c0588e1-5eb1-4424-8a4c-633004f3e73d)
 
-*Figure 10: Utilizing a triangular support instead of building another tower to attach a back roller mechanism. It also features motors mounted at a 45 degree angle for the drive base for clean packaging and biased CoG for better handling. 
+*Figure 10: Utilizing a triangular support instead of building another tower to attach a back roller mechanism. It also features motors mounted at a 45 degree angle for the drive base for clean packaging and biased CoG for better handling.*
 
 ![image](https://github.com/user-attachments/assets/3816e3a5-4a42-4b02-80c2-8f0e45756000)
 
-*Figure 11: 5408D Spin Up Prototype. Building a PTO (powertakeoff) system with slim margins of a triangular support and also using it to attach a flywheel mechanism. 
+*Figure 11: 5408D Spin Up Prototype. Building a PTO (powertakeoff) system with slim margins of a triangular support and also using it to attach a flywheel mechanism.*
 
 ![image](https://github.com/user-attachments/assets/0466fb9e-d56d-4dbb-9f65-18c305e535d1)
 
-*Figure 12: 5408D Spin Up Worlds Robot. Notice how there are a lot of right triangles (specifically 45-45-90s). Notice how the clean packaging of the PTO is practically concealed within the robot.
+*Figure 12: 5408D Spin Up Worlds Robot. Notice how there are a lot of right triangles (specifically 45-45-90s). Notice how the clean packaging of the PTO is practically concealed within the robot.*
+
+![image](https://github.com/user-attachments/assets/ae18c463-03bc-49e5-9728-007bc77df3b6)
+
+*Figure 13: 5408D Over Under Worlds Robot (in construction). Notice how little metal and neat the packaging is on this PTO. I put it very low to the ground to lower CoG and to make it less noticeable on the final robot.*
+
+![image](https://github.com/user-attachments/assets/d4719203-9937-4d83-834a-894101dfa59f)
+
+*Figure 14: 5408D Over Under Worlds Robot. The night before Worlds. 
+
+![image](https://github.com/user-attachments/assets/ef266a11-665e-4346-8e5f-8e45a3fa59c3)
+
+*Figure 15: 5408D Over Under Worlds Robot. It is hanging off a pole
 
 I ain't saying that I build the best, but what I am saying is that I build with a specific style that focuses on cleanliness of design and low material costs. This is b/c we are primarily a team that uses very old metal, and we sorta lacked funding as compared to other mainstream teams around the world. (that also explains why we did not go to any special events outside of the World Championship). 
 
