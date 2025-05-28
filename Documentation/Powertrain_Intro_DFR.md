@@ -118,7 +118,21 @@ Noah's good tips: https://cloud.wikis.utexas.edu/wiki/external/YTRhMDdmNjlhZjZkN
 
 So in summary, in order to be successful/or to make the most out of your time in DFR is to try to talk with older members and see if you can contribute a lot at your project. Take small, but necessary steps to where you want to be. Do you want to take on more endearing projects? You'd have to prove it to them. It doesn't matter how small your project is, you need to perform your absolute best on selling your part and in return you will gain more positions in this rather bureaucratic organization. DFR served as a rough albeit necessary way for me to grow as an engineer, and I plan on contributing for awhile.
 
-I do wish to change and transform on what being DFR member means though, something where politics is not a worry-some-point but learning is fostered more. Rather than doing independent research, why can't we run short meetings on knowing each other and sharing on knowledge on race cars? There seems to be a massive knowledge retension issue, and I hope my writing gets to you, and inspires something to change. There's a lot of smart people here, but do they know how to win? Not precisely, and I want to bring that culture of learning and friendship. Yes you'll feel like trying to break into a clique, but just be friendly and move on if you need to. 
+I do wish to change and transform on what being DFR member means though, something where politics is not a worry-some-point but learning is fostered more. Rather than doing independent research, why can't we run short meetings on knowing each other and sharing on knowledge on race cars? There seems to be a massive knowledge retension issue, and I hope my writing gets to you, and inspires something to change. There's a lot of smart people here, but do they know how to win? Not precisely, and I want to bring that culture of learning and friendship. Yes you'll feel like trying to break into a clique, but just be friendly and move on if you need to.
+
+## Gallery
+
+![image](https://github.com/user-attachments/assets/0dfad92b-781f-4797-9fec-1ade491aa5a5)
+
+![image](https://github.com/user-attachments/assets/ee58dd08-31ac-4858-9e4c-b1b4778d631a)
+
+![image](https://github.com/user-attachments/assets/8d1e77cc-cdce-49cd-bf26-d599c157c7bf)
+
+![image](https://github.com/user-attachments/assets/13d00503-84a8-4c6e-93e9-f6d84f7c46cf)
+
+
+
+
 
 
 
