@@ -95,6 +95,20 @@ Normally every game would demand the robot to intake some sort of object and use
 
 Typically an intake could look like a **claw**, a **giant claw**, or a **set of rollers**. It even can look like a **plunger** for a toilet as well, you just need to be able to design the intake for whatever game is happening. I highly suggest doing your own research on what kind of intake you should use depending on the game (try to watch video on what the "meta" does or what is most commonly built). 
 
+## Building the actual robot: Attaching the Towers
+
+Towers are structures that are built off the chassis that normally hold the main scoring mechanisms of the robot, or could be branched off into parts of the intake (if you're a pro builder you can minimize the amount of towers since they generally make the CoG higher up, and add weight). Normally when you add a tower, You can screw in one part of the c channel to a part that is horizontally supporting the drive base (I'll add pics here). And then you would put a triangle support, and then perhaps another horizontal support to another tower. 
+
+You can also do some cool tricks with tower attachments, this can involve using standoffs to add another c channel across the small part of your sandwich'd drive chassis, using a 1x1 or a 90 degree gusset off the side to make the towers look flush and reduce the amount of points of attachment (thus reducing weight and perhaps increasing the serviceability of the tower). 
+
+## Serviceability
+
+This topic isn't really talked about in competition, but eventually some day your parts will fail and break. Thus you need to be able to replace some parts when you need to. It is very common for parts to get loose such as the motors or attachments that are screwed in via nuts. It's important to understand what may cause these things to get loose, and this is mostly due to mechanical vibrations, usually from flywheels, moving back and forth, being pushed from another robot, and a whole lotta other factors. 
+
+It has become commonplace to build chassis with 5 hole wide gaps for the sandwich part, and instead utilize a screwjoint. I argue that this boundary is way too thin most of the time for servicability, and this often requires taking out your wheels then tightening the motors on the drive base. It is much simplier to just have a 6 hole wide sandwich and then use like an axle perhaps, but this comes at the consequence of structure and perhaps performance (lower friction, less slop, you name it.)
+
+Another important part to servicability, comes to parts you should NOT be servicing the day of the competition. This could be a PTO or a flywheel. I highly recommend using loctite and making sure the motors and whatever c-channels are torqued down properly, and utilize nylocks! Of course you don't want to be using nylocks everywhere as they increase weight, which is why some parts I will use zipties to hold in bearings (which already have pre built teeth that hook onto the metal's holes), or some bits of lexan. They seem to keep up and they have never failed on me. I would not recommend using zipties to hold metal together though. 
+
 ## Design Methodology: The Toyota Way (5408) 
 
 I normally build with a specific style that could not be mistaken with anyone else's. The key or general gist to how I build things is about using the designing the robot with as little "extra" bits of metal and using odd placements of motors, pistons. This way of thinking forces you to build with as little material as possible without sufficing on quality of the build. I will give some examples of what this may look like. 
@@ -117,11 +131,11 @@ I normally build with a specific style that could not be mistaken with anyone el
 
 ![image](https://github.com/user-attachments/assets/d4719203-9937-4d83-834a-894101dfa59f)
 
-*Figure 14: 5408D Over Under Worlds Robot. The night before Worlds. 
+*Figure 14: 5408D Over Under Worlds Robot. The night before Worlds.* 
 
 ![image](https://github.com/user-attachments/assets/ef266a11-665e-4346-8e5f-8e45a3fa59c3)
 
-*Figure 15: 5408D Over Under Worlds Robot. It is hanging off a pole
+*Figure 15: 5408D Over Under Worlds Robot. It is hanging off a pole*
 
 I ain't saying that I build the best, but what I am saying is that I build with a specific style that focuses on cleanliness of design and low material costs. This is b/c we are primarily a team that uses very old metal, and we sorta lacked funding as compared to other mainstream teams around the world. (that also explains why we did not go to any special events outside of the World Championship). 
 
