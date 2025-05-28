@@ -109,6 +109,8 @@ It has become commonplace to build chassis with 5 hole wide gaps for the sandwic
 
 Another important part to servicability, comes to parts you should NOT be servicing the day of the competition. This could be a PTO or a flywheel. I highly recommend using loctite and making sure the motors and whatever c-channels are torqued down properly, and utilize nylocks! Of course you don't want to be using nylocks everywhere as they increase weight, which is why some parts I will use zipties to hold in bearings (which already have pre built teeth that hook onto the metal's holes), or some bits of lexan. They seem to keep up and they have never failed on me. I would not recommend using zipties to hold metal together though. 
 
+If you're seriously advanced and you definitely do not want to service some parts such as a catapult arm, I suggest learning a little bit about stress strain curves and yield strength kind of stuff. Get into FEA perhaps to understand high stress high cycle loads. Make sure some parts are the correct factor of safety so they can withstand weeks of abuse before needing to be replaced. I one time ran with the same catapult arm for 2 months before it started to crack (even with boxing techniques).  
+
 ## Design Methodology: The Toyota Way (5408) 
 
 I normally build with a specific style that could not be mistaken with anyone else's. The key or general gist to how I build things is about using the designing the robot with as little "extra" bits of metal and using odd placements of motors, pistons. This way of thinking forces you to build with as little material as possible without sufficing on quality of the build. I will give some examples of what this may look like. 
