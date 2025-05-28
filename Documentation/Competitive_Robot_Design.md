@@ -125,6 +125,10 @@ I normally build with a specific style that could not be mistaken with anyone el
 
 I ain't saying that I build the best, but what I am saying is that I build with a specific style that focuses on cleanliness of design and low material costs. This is b/c we are primarily a team that uses very old metal, and we sorta lacked funding as compared to other mainstream teams around the world. (that also explains why we did not go to any special events outside of the World Championship). 
 
+Other build styles focus on innovative uses of lexan (a kind of plastic sheet). This means you would need access to advanced manufacturing techniques past a hacksaw, scissors, and sandpaper, and now you would need a CNC machine, a vice grip, a grinder, etc. I normally built with what I had on hand, and reused old plastic components from other teams. 
+
+
+
 
 
 
