@@ -95,6 +95,27 @@ Normally every game would demand the robot to intake some sort of object and use
 
 Typically an intake could look like a **claw**, a **giant claw**, or a **set of rollers**. It even can look like a **plunger** for a toilet as well, you just need to be able to design the intake for whatever game is happening. I highly suggest doing your own research on what kind of intake you should use depending on the game (try to watch video on what the "meta" does or what is most commonly built). 
 
+## Design Methodology: The Toyota Way (5408) 
+
+I normally build with a specific style that could not be mistaken with anyone else's. The key or general gist to how I build things is about using the designing the robot with as little "extra" bits of metal and using odd placements of motors, pistons. This way of thinking forces you to build with as little material as possible without sufficing on quality of the build. I will give some examples of what this may look like. 
+
+![image](https://github.com/user-attachments/assets/4c0588e1-5eb1-4424-8a4c-633004f3e73d)
+
+*Figure 10: Utilizing a triangular support instead of building another tower to attach a back roller mechanism. It also features motors mounted at a 45 degree angle for the drive base for clean packaging and biased CoG for better handling. 
+
+![image](https://github.com/user-attachments/assets/3816e3a5-4a42-4b02-80c2-8f0e45756000)
+
+*Figure 11: 5408D Spin Up Prototype. Building a PTO (powertakeoff) system with slim margins of a triangular support and also using it to attach a flywheel mechanism. 
+
+![image](https://github.com/user-attachments/assets/0466fb9e-d56d-4dbb-9f65-18c305e535d1)
+
+*Figure 12: 5408D Spin Up Worlds Robot. Notice how there are a lot of right triangles (specifically 45-45-90s). Notice how the clean packaging of the PTO is practically concealed within the robot.
+
+I ain't saying that I build the best, but what I am saying is that I build with a specific style that focuses on cleanliness of design and low material costs. This is b/c we are primarily a team that uses very old metal, and we sorta lacked funding as compared to other mainstream teams around the world. (that also explains why we did not go to any special events outside of the World Championship). 
+
+
+
+
 
 
 
