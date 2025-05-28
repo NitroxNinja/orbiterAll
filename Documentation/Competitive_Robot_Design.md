@@ -83,8 +83,19 @@ In Kepler's video, he also mentioned different kinds of wheels and setups, that 
 
 *Figure 8: 4253B's X-drive with odometry tracking wheels to go side to side*
 
-
 You must learn how to mess with gear ratios and your structure placement, keeping things square, and such to have a "successful" drive train.
+
+## Building the actual robot: Intake Mechanism(s)
+
+Normally every game would demand the robot to intake some sort of object and use it to score points. For example in the 2019-2020 game, Tower Takeover, the game objects were cubes that you had to pick up and make very large stacks into corners of the field. In the 2018-2019 game required you to interact with 2 game objects, which were balls you could throw at red/blue flags and discs(or caps) you can flip over. There are even some games which involve mobile goals (or scoring places where you can put game objects on to score points), This most notably happened in "Round Up (2010-2011)", "In The Zone" (2017-2018), "Tipping Point" (2021-2022), and most recently in "High Stakes" (2024-2025). 
+
+![image](https://github.com/user-attachments/assets/ba6a309e-4ef1-4ee6-b67f-d9ff98ef736e)
+
+*Figure 9: 365X vs 5408A In The Zone Scrimmage. Involved picking up of yellow cones and stacking them on moveable scoring bases (mobile goals, or mogos)*
+
+Typically an intake could look like a **claw**, a **giant claw**, or a **set of rollers**. It even can look like a **plunger** for a toilet as well, you just need to be able to design the intake for whatever game is happening. I highly suggest doing your own research on what kind of intake you should use depending on the game (try to watch video on what the "meta" does or what is most commonly built). 
+
+
 
 
 
