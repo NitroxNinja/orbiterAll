@@ -153,9 +153,37 @@ Other build styles focus on innovative uses of lexan (a kind of plastic sheet). 
 
 ## Programming Developments 
 
-PID is often a heavily talked about topic for beginners in programming for competition. In the 15 second autonomous periods, people must accurately control their robot to complete tasks, and doing that with DC servo motors should seem possible but often inaccurate and sloppy movements are common for starter programs. 
+This will be put into 2 subsections: starting to program your robot, and newer skills/techniques in programming that could set you apart. 
 
-Programmers often need to understand a robot's precise location and heading (or what direction the robot is facing) in order to navigate the field. This is called odometry or localization. Since VEX fields are flat, and they are squares, team 5225A had a strategy for localization by using a thing called tracking wheels, which were "dead wheels" (wheels without motors) that had quadrature rotation encoders that gave the microcontroller feedback on how much each wheel spun. There were lateral (forward and backward) and horizontal (sideways) tracking wheels. 
+### i. Starting to program 
+For starters, the programming language you will most likely start learning with to program robots is C++. Rarely do teams ever use Python, but there have been some moves to make Rust a more programmable language. All languages have their bonuses, features, and problems as well. But to be honest, it's gonna be hard to explain why there are debates, so just use C++ for now. Familiarize yourself with program structures, the Visual Studio Code IDE, files, header files, how to print things, if else statements, while loops, how to print "Hello World" b/c all those basic programming skills (which can be learned in about 2 weeks) will be helpful when you're actually coding. The real bulk of the problem for programming is just understanding the mathy part of it.
+
+Your program often will need to achieve but are not limited to these 3 major tasks: calibration/prep, teleoperation, and the autonomous. 
+You will use a software template usually provided by VEXcode or PROS (Purdue Robotics Operating System), which has all these formats built in. You just need to start programming the actual robot. So first you'll have to define your motors, typically using a keyword in header files known as "extern" which globalizes that variable so all files in your program.
+
+You want to start off with learning how to program a motor to move in accordance with your controller. Since you already know what an if else statement is, follow your API's instructions on how to do the rest. Bam you learned how to control a motor w/ the press of a button. 
+
+You'll then want to try to program your drive base. There are multiple ways to do this, but since there are 2 joysticks, the most common way is to use a method called "Tank Drive" where the right joystick controls the right side of the drive, and the left joystick controls the left side of the drive (forward and backward). To turn you just move your fingers in the opposite direction. This way of programming technically gives you the most control of your drive base, but requires some thinking, and takes up a lot of brain space in your driving, also you only have 2 thumbs, and sometimes you need to press multiple buttons at once. 
+
+Then we can dive into "arcade drive" where one joystick controls forward and backward movement and then the other joystick controls left and right turning. This sort of partially segregates the thinking of movement and makes it more intuitive for some drivers if they played games as a child. 
+
+Then now there is the ultimate driving technique which requires a lot of finger control, but once you master it, you can multitask like a dream! It's called "single-stick arcade drive" where you use only one joystick, and the forward and backward is controlled by your stick going up and down, and turning is controlled by your stick going left and right. If your drive base consists of only omniwheels, to drift, just move your stick to the whatever corner of the joystick which combines any of those to, let go to intiaite the drift, and then blip the throttle to keep on going. 
+
+Apply these same principles but to the autonomous function and you could tell your robot to follow instructions in autonomous, and you may struggle a lot for it. That's why you should read the next subsection. 
+
+### ii. Newer Software Techniques
+PID is often a heavily talked about topic for people well versed in programming for competition. In the 15 second autonomous periods, people must accurately control their robot to complete tasks, and doing that with DC servo motors should seem possible but often inaccurate and sloppy movements are common for starter programs. 
+
+Programmers often need to understand a robot's precise location and heading (or what direction the robot is facing) in order to navigate the field. This is called odometry or localization. Since VEX fields are flat, and they are squares, team 5225A had a strategy for localization by using a thing called tracking wheels, which were "dead wheels" (wheels without motors) that had quadrature rotation encoders that gave the microcontroller feedback on how much each wheel spun. There were lateral (forward and backward) and horizontal (sideways) tracking wheels. This is often paired with an IMU to detect heading and turns, and you could possible implement an extended kalman filter (combining the readings from other sensors to get a more clear reading)
+
+This sort of comes at the consequence of losing space on your drive base, excess weight, and difficult serviceability (if you don't make it quick swap-able). 
+
+A increasingly more popular method of localization, called "Monte-Carlo-Localization", utilizes distance sensors to measure your distance from certain walls, and most notably an IMU. Using this method of localization assumes that you know the space/arena you're in (it's a square box, with game objects). Based off the readings from the distance sensor and what your heading is, it uses a baynesian assumption (normal distribution) of possibilities of where you most likely will be on the field at a given point. As the robot moves through the environment, it picks up more data from the distance sensor saying like "Oh I detected a change this way, so that means I'm going forward/backward/left/right" and etc. It essentially reads the field like a book and is able to accurately guess where it is.
+IMAGINE you're teleported in your room, but then you were blindfolded. You might not know where immedieately you are, but as you walk around and feel what objects you hit (i.e. your bed, or your computer), you can sort of guess that "Oh I'm touching by bed top left corner of my bed b/c I put my pillow there". 
+
+The next level up from Monte Carlo Localization is something called SLAM (Simultaneous Localization and Mapping), but with VEX's current hardware, and lack of advanced sensors such as LiDAR, it's gonna be practically impossible to pull it off, and you're better off just doing MCL, which works pretty great for VEX. If you do want to learn about SLAM, you can read my document from the NOVA Autonomous Car document I wrote! Or use google. 
+
+
 
 
 
