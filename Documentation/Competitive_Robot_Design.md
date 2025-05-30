@@ -149,6 +149,12 @@ I ain't saying that I build the best, but what I am saying is that I build with 
 
 Other build styles focus on innovative uses of lexan (a kind of plastic sheet). This means you would need access to advanced manufacturing techniques past a hacksaw, scissors, and sandpaper, and now you would need a CNC machine, a vice grip, a grinder, etc. I normally built with what I had on hand, and reused old plastic components from other teams. 
 
+## Programming Developments 
+
+PID is often a heavily talked about topic for beginners in programming for competition. In the 15 second autonomous periods, people must accurately control their robot to complete tasks, and doing that with DC servo motors should seem possible but often inaccurate and sloppy movements are common for starter programs. 
+
+Programmers often need to understand a robot's precise location and heading (or what direction the robot is facing) in order to navigate the field. This is called odometry or localization. Since VEX fields are flat, and they are squares, team 5225A had a strategy for localization by using a thing called tracking wheels, which were "dead wheels" (wheels without motors) that had quadrature rotation encoders that gave the microcontroller feedback on how much each wheel spun. There were lateral (forward and backward) and horizontal (sideways) tracking wheels. 
+
 
 
 
