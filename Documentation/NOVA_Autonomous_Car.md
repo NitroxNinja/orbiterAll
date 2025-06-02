@@ -1,7 +1,8 @@
 # Intro 
 
 NOVA Autonomous Car is a open-source research project for UTD students to make a fully autonomous car. (led by Dr. Justin Ruths, mechanical engineering professor here) 
-Read the docs here: https://nova-utd.github.io/navigator/
+
+### Read the docs here: https://nova-utd.github.io/navigator/
 
 So at first I started out by 3D printing some cameras, and then getting it parametricized and stiched into an image so that our developers can do some cool stuff with it. 
 I then started to CAD out some other things such as a raspberry pi holder and cleaned up some of the wires near the On Logic Computer (we refer to this as the OBC, or onboard computer). This sort of puts into place the CAN (controller area network), where there are various subcomputers and embedded things within the car that we use for a variety of sensors and systems on the car. This raspberry pi holder would later evolve into the NAS cooler I had made (you can read NAS_Cooling_Sys.md in this documentation folder). 
