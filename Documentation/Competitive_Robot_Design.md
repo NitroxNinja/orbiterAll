@@ -183,6 +183,10 @@ I ain't saying that I build the best, but what I am saying is that I build with 
 
 Other build styles focus on innovative uses of lexan (a kind of plastic sheet). This means you would need access to advanced manufacturing techniques past a hacksaw, scissors, and sandpaper, and now you would need a CNC machine, a vice grip, a grinder, etc. I normally built with what I had on hand, and reused old plastic components from other teams. 
 
+## Extra 
+
+It doesn't just lead an industry, it inspires one. 
+
 
 
 
