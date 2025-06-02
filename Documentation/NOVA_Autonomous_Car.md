@@ -8,6 +8,7 @@ NOVA Autonomous Car is a open-source research project for UTD students to make a
 
 So at first I started out by 3D printing some cameras, and then getting it parametricized and stiched into an image so that our developers can do some cool stuff with it. 
 Later, I want to improve the encoder mount that is currently being used to measure the rotation(s) of the steering wheel, since it is cantilevered and it is pretty jank. It looks cool but it isn't fully thought out, and I wanted to see if I could improve it. There is a lot of play between the pinion and the other gear for the readings, so let's see how I can improve it. 
+
 I then started to CAD out some other things such as a raspberry pi holder and cleaned up some of the wires near the On Logic Computer (we refer to this as the OBC, or onboard computer). This sort of puts into place the CAN (controller area network), where there are various subcomputers and embedded things within the car that we use for a variety of sensors and systems on the car. This raspberry pi holder would later evolve into the NAS cooler I had made (you can read NAS_Cooling_Sys.md in this documentation folder). 
 
 ![image](https://github.com/user-attachments/assets/1e4b522d-62c4-4093-ba46-a8ae845c88d7)
