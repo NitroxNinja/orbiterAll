@@ -17,7 +17,7 @@ Contents are
 
 ## What's the experience like? 
 
-The leadership structure of DFR is rather left to intuition and accountability of the individual members. It will feel hierachal at first and you must bridge across! You'd be able to have a lot of "freedom" with how your schedule runs as long as you complete your delieverables or tasks to be done. These are checkpoints called "Gate 1, Gate 2, Gate 3, Preliminary Desgin Review, Complete Design Review" and if failed, you'd get to "Final Design Review". 
+The leadership structure of DFR is rather left to intuition and accountability of the individual members. It will feel hierachal at first and you must bridge across! You'd be able to have a lot of "freedom" with how your schedule runs as long as you complete your delieverables or tasks to be done. These are checkpoints called "Gate 1, Gate 2, Gate 3, Preliminary Desgin Review, Complete Design Review" and if failed, you'd get to "Final Design Review". Update: In the newer 2025 development cycles, the powertrain lead hinted that some of thse gates would be removed in order to promote the development of the car over the defense and politics of design. 
 
 Oh yeah did I mention you could "fail" a delieverable? This meant that whatever you are designing or making, it must be defended and validated often with mathematical and physics proof, or through simulations and CAD, and whatnot. For every delieverable, you don't always have to be 100% ready to go, and it's meant to be a "learning experience" and is supposed to closely mimic what happens in the real world. I'll admit, it'll feel pretty slow, and the higher ups most likely will give you a lot of work to do.
 
