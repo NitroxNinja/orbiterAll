@@ -19,6 +19,10 @@ What I did next was mind blowing and fan blowing. I just got a fan, and then I p
 I also wanted to test the natural CFM of a fan at different rates, and while I didn't have a pitot tube, I can alternatively CAD up the blades, imaginary spin it at a certain RPM of which I can approximate, and then run it all through CFD. 
 This is b/c I wanted to add a sort of venturi effect to the cooling system since the heat sync is in a restricted place. But b/c we are pressuring this zone a lot, I think there should be a way for this air to pass by the system very quickly. We know that this compressed air will get hot, and then must be passed up through the system. So there is an another fan that is on top of the whole NAS which draws the hot, less dense air (in theory). 
 
+## Simulation and Validation 
+
+Even though it seems a little overkill... this project was to also see how effectively I can cool the system while taking into consideration the boundary conditions. I will use StarCCM+ to simulate the heat transfer of the CPUs, SSDs, and other computerized components of the system to see if they can keep an adequate temperature under normal loading conditions with a FoS of 1.5 or something. 
+
 ## Softwares and Electronics 
 
 This features 
