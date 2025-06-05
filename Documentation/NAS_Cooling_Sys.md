@@ -23,15 +23,20 @@ This is b/c I wanted to add a sort of venturi effect to the cooling system since
 
 This features 
 - ESP32
-- Ardunio Uno R3
+- Arduino Uno R3
 - Raspberry Pi 4
 - A Raspberry Pi 4 hat for the 4 Vulcan SSDs
 - 4 Vulcan Z SSDs
 
-ESP32 boards offer a lot of capabilities that allow this NAS to work. I am unsure how to program it, but I'll learn anyways. Embedded is cool. 
+ESP32 boards offer a lot of capabilities that allow this NAS to work. I am unsure how to program it, but I'll learn anyways. Embedded is cool.
+The Arduino is there mostly to control the PWM for the fans.
+
+We decided that instead of opting for the simple solution and just spinning the fans till the CPU was as cool as it could be, we decided to complicate the solution on purpose to find the optimal way to cool. If there's a minimum temperature threshold we need to me, we will meet it precisely. We also took into account how loud the 2 fans may be, as we want this to be a stealthy setup. We also want to get this to the point to avoid the odd momentary events where the fan just speeds up time to time, and then is quite for the other times. Aka we just want this to be consistent. 
 
 ## Simulation and Validation 
 
 Even though it seems a little overkill... this project was to also see how effectively I can cool the system while taking into consideration the boundary conditions. I will use StarCCM+ to simulate the heat transfer of the CPUs, SSDs, and other computerized components of the system to see if they can keep an adequate temperature under normal loading conditions with a FoS of 1.5 or something. 
 
-We will set the boundary conditions to be that the metal heat sync (on the CPU) is about 60 degrees and there is a heat radiating away from it, and sort of conducting heat to the SSDs. The outside of the box will be assumed atmosphereic pressure
+We will set the boundary conditions to be that the metal heat sync (on the CPU) is about 60 degrees and there is a heat radiating away from it, and sort of conducting heat to the SSDs. The outside of the box will be assumed atmosphereic pressure.
+
+After testing for some loads, we studied that the expected wattage/power output the Raspberry Pi 4 will do is around 6.2W to 15.3W according to some article that you can just search up online. Of course it's good to do our own testing for our own numbers, so we just have a flow bench set up. 
