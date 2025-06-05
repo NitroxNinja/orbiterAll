@@ -33,6 +33,8 @@ The Arduino is there mostly to control the PWM for the fans.
 
 We decided that instead of opting for the simple solution and just spinning the fans till the CPU was as cool as it could be, we decided to complicate the solution on purpose to find the optimal way to cool. If there's a minimum temperature threshold we need to me, we will meet it precisely. We also took into account how loud the 2 fans may be, as we want this to be a stealthy setup. We also want to get this to the point to avoid the odd momentary events where the fan just speeds up time to time, and then is quite for the other times. Aka we just want this to be consistent. 
 
+Actually now that I am writing this, I'll throw a minimal amount of documentation when I upload the code to my GitHub, and just link this documentation from that code/to this part of my documentation.
+
 ## Simulation and Validation 
 
 Even though it seems a little overkill... this project was to also see how effectively I can cool the system while taking into consideration the boundary conditions. I will use StarCCM+ to simulate the heat transfer of the CPUs, SSDs, and other computerized components of the system to see if they can keep an adequate temperature under normal loading conditions with a FoS of 1.5 or something. 
