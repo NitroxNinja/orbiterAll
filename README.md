@@ -1,5 +1,5 @@
 # orbiterAll
-Open source files for various projects I do at my institution 
+Open source files for various projects I do anywhere
 
 ## Features 
 - Some articles/documents written in a blog-style manner, from cars that are driven by man and cars that drive themselves, to robots and some side projects
