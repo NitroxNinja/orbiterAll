@@ -15,7 +15,7 @@ I then started to CAD out some other things such as a raspberry pi holder and cl
 
 ## Electrical Things 
 
-I learned how to use a NVIDIA AGX Orin and paired it along with a ZedX camera, this will hopefully be a part of the CAN (controller area network). I also made a SLA battery protection thing for all the embedded systems and voltage step down things on the 3rd scale car (we are building a mini car). 
+I learned how to use a NVIDIA AGX Orin and paired it along with a ZedX camera, this will hopefully be a part of the CAN (controller area network). I also made a SLA battery protection thing for all the embedded systems and voltage step down things on the 3rd scale car (we are building a mini car). You may hear a lot of the NVIDIA Jetson terms thrown around, and I think it's a very cool computer used for mobile robotics. Super intense and well designed for low level high performance applications. 
 
 ## Software Things
 
