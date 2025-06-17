@@ -1,4 +1,4 @@
-## Intro
+# Intro
 
 A NAS or Network Attached Storage is a kind of thing I have at my house for an extrananeous storage for files if ya' know what I mean. This paired along with a remote access system can possible help us store a large amount of files. 
 
