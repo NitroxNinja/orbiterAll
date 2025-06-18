@@ -75,10 +75,13 @@ We sorta knew what we wanted going into this game. We wanted to have atleast a 6
 - After the state championship, we qualified for worlds and realized our robots acceleration was really darn slow. This was due to the shear weight and complexity of the slingshot.
 - I took insane weight saving measurements, I swapped out the main triangles of the thing to be half cuts, and the top structure to be half cuts. This would bring the CoG down and reduce weight by nearly 0.75 lbs. I also got rid of many of the screws and nuts on the bearings of the base and opted for using zipties, a technique which I had bastardized and shunned in the previous season (tipping point) for being unreliable. It seemed to function well
 - I also found as much spots to use smaller c channels, and general weight savings. Overall, the weight reduction program made the robot go from 15 pounds to 14 pounds, which is a huge victory in terms of acceleration and finally having a manuverable robot.
-- With this I could rely a little less on the 6 motor drive base and purely focus on a 4 motor drive and shooting. It got a little annoying for me to switch back and forth anyways, and plus I found my driving style to not really play defense that much. I also want to mention this drive had omnis only and promoted the idea of drifting to score. Something I got really good at (Initial D). 
+- With this I could rely a little less on the 6 motor drive base and purely focus on a 4 motor drive and shooting. It got a little annoying for me to switch back and forth anyways, and plus I found my driving style to not really play defense that much. I also want to mention this drive had omnis only and promoted the idea of drifting to score. Something I got really good at (Initial D).
 
-### Remarks and end of Spin Up 
+## Remarks and end of Spin Up 
 
-- After Spin Up, I was drained mentally of most of my creative ability. I pushed myself past the limit and my Over Under robot would go to pay on that debt. I may be talking about this robot in another article. But overall it was a year of meaning and challenge, and it shaped me into the person I am today. I am the result of a lot of unique circumstances, and it made a robot that didn't just lead the competition, but it inspired it. 
+- After Spin Up, I was drained mentally of most of my creative ability. I pushed myself past the limit and my Over Under robot would go to pay on that debt. I may be talking about this robot in another article. But overall it was a year of meaning and challenge, and it shaped me into the person I am today. I am the result of a lot of unique circumstances, and it made a robot that didn't just lead the competition, but it inspired it.
+
+![image](https://github.com/user-attachments/assets/f144d78d-bd3b-4e88-ad28-ae28eaf646a7)
+
 
 
