@@ -13,33 +13,36 @@ We sorta knew what we wanted going into this game. We wanted to have atleast a 6
 ### Iteration 1 : The Turning Point Redemption Arc
 
 - Then... we treated it like our "Turning Point Redemption Arc" (TP was a VRC game played from 2018-2019), and wanted to fulfill our flywheel dreams. We started off by building a flywheel, and put a lexan-shaped U, large enough to contain 3 discs, where the discs would wind around the wheel going nearly a full 180 degrees. 
-
 - We did this with the expectation that the flywheel needed to be able to fully transfer it's rotational kinetic energy for linear kinetic energy of the yellow discs, but this was overkill, and was quite difficult to package since of how large as heck it was. We sorta begun experimenting with PTO packaging here, it wasn't super clean, but it was cleaner than most team's executions (not bragging).
-
 - We also discovered via testing, that a single motor spinning a half pound flywheel struggled to spin up to speed, and also struggled at maintaining speed when 3 discs were shot in succession. We knew that if we shot one at a time slowly, it would not suffice in a competition setting. We needed speed. 
 
 ### Iteration 2 : Forwards and Backwards Mojo Dojo
 
 - Inspired by other teams, we decided to do a reverse-intaking but forward-shooting flywheel. This time this accomplished the goal of reducing packaging, and now with the inspiration to build a 2 motor flywheel paired with a 4 motor drive + 2 motor PTO drive/intake, we built something we were pretty impressed with. Took around 3 weeks, and we utilized 1 part of the intake PTO to spin the intake/top roller and then the other part of the intake PTO to power a linear reverse puncher-indexer that put the discs into the flywheel.
-
 - Little fun stupid story, we testing a 2 motor flywheel and wondered why it took so long to spin up. Long story short, we were using voltage control, and that like demands "I WANT ALLLLLL THE POWER NOWWWW" but in reality velocity control (provided by the VEX library) does a suprisingly good job at getting the flywheel to the correct target speed so more it's like "VRRRmmmmmm the power is delivered smoothly and effectively, drawing more current from the battery as necessary".
 
 ### Iteration 3 : In a fit of rage 
 
 - However I was pretty disappointed with the driving experience. I didn't like the idea of having a super fast flywheel that I could shoot forward, but then I had to go into reverse every single time I wanted to intake (you could also say I was a bad driver at the time). So then, I suprised my team by taking the robot apart immediately after a meeting, then put it together within 2 days. 
-
 - The catch was that now I literally turned the same assembly which was intially forwards, to reverse, to face the same direction as the intake. I took the whole assembly and somehow parts of the PTO and it all fit... From there it was a little tid bid tuning so now the path where the discs traveled on the intake (1/2 part of the intake PTO) increased, as it went up and through the flywheel assembly, and to a hopper where there would be an indexer (from the PTO'd motor of the intake). It sucked at moving the discs into the flywheel on it's own b/c it had no compression/friction. So I put a piston that would gently press the disc stack down. Overall, the complexity of the robot increased by A LOT: varying chain/gear lengths, dropped gear ratio and lucky cantilevered gear placement for the PTO/drive interface, and featured a lot of odd rubber linked rollers (an experimental technique I used back in Change Up, will be writing a document over the big red and blue wheel).
-
 - We also added a string shooter, that was a catapult and then there would be a pneumatic nut attached at the end. This was very dangerous and we will not be doing this again, also the coverage sucked (there were only 3 catapults, and it was heavy). Shoutout to my teammate Ayden for CNCing the lexan attachments and cutting up the plates to mount the joints and stuff.
-
 - Needless to say after some tuning, and some programming we got this robot to work pretty ok. It intaked and shot discs, it moved fine, and it was overall an ok robot. We went to Wylie High School (to work with 22204V and use their field) and tested it. It shot at far ranges and medium ranges very well, however it sucked at shooting close range, and we planned on adding a speed reducer, and pneumatic lexan deflector that would shoot the discs more up and into the goal. 
-
 - We also came to realize that our shooting speed was extremly slow, and this was mostly due to not only the intake path, but also the design of the indexer. We could've tuned this to be a menance for the competition, but after dealing with the complexity and bull crap the whole flywheel situation, I decided to destroy it all and start over with something I adored... catapults.
 
 ### Iteration 4 : The Golden Days
 
 - My teammate (notice how it's in the singular form, only 1) got upset at me, but I knew I was correct. A fully connected simple 6 motor 600 RPM 2.75" drive, with a 1 motor 1 to 3 to 5 catapult, with a 1 motor intake and top roller. It was super simplistic and lightweight, and also fast, unlike our old prototyped robots. It was inspired by Ayush Palse (or Boots from 1961Z/OWL).
-- We took this one to our first 2 competitions (in 2022), where it took named, and qualified us for State. Our driving dynamics was so out of touch to other teams that it didn't make sense for other teams to strategize against us since it was so fast.  
+- It featured a reverse-intake, forward shooting catapult. This contrasts to what I said from iteration 3, but since it was a one shot one go, and I got better at driving, this catapult feature was justified. The discs loaded into the mechanism like a sandwich being ready to get shot and there it did. It did have a slight issue of the discs diverging after it got shot but for now it wasn't a worry.
+- We took this one to our first 2 competitions (in 2022), where it took named, and qualified us for State. Our driving dynamics was so out of touch to other teams that it didn't make sense for other teams to strategize against us since it was so fast. It was simple, it was fast, it was *made* fast (didn't take that long to build), and most importantly it was reliable, like a Toyota. 
+- My teammate argued that b/c it didn't have a good grouping (it couldn't shoot the discs over the line without them going everywhere in the vertical axis of motion). This is due to tangential velocity, where discs at a further radius from the joint will experience more linear velocity than the inner ones. This feels weird to know, knowing the the arm that hoisted all the discs experienced the same angular velocity.
+- He suggested we copy a team, 9257C, the Housecats, who have been experimenting with a slingshot style shooter, something of which not many teams built due to it's sheer complexity. At first, I rejected hard, but my other teammates argued for his point, and then I felt pressured to build something new and unique, and thus, the 2-3 weeks of winter break which I planned to enjoy turned into a nightmare.
+
+### Iteration 5 : Darkday I
+
+### Iteration 5.5 : Darkday II
+
+### Iteration 6 : COROLLA
+
 
 
 
