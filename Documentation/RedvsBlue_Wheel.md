@@ -29,8 +29,22 @@ From then on my robot started to shape into something neat and sorta working. Bu
 
 ## A stroke of genius 
 
-VEXU team YNOT released their robot and it had some big wheels. Like I'm talkin' 5"-6"it wheels. I sorta got inspired, and wanted to make something similar b/c a larger wheel would mean more velocity for a ball as it shot (without having to gear up). 
+VEXU team YNOT released their robot and it had some big wheels. Like I'm talkin' 5"-6" wheels. I sorta got inspired, and wanted to make something similar b/c a larger wheel would mean more velocity for a ball as it shot (without having to gear up). 
 
 So then what I did was I got 2 Turning Point flags, found one of those chicken boullion seasoning cups, took the lid off and used it as a stencil. I marked it up with sharpie and painstakingly cut up the 2 flags into 2 circles. I then aligned it and drilled a hole in the center, and then used math and my eyes to drill 8 holes around the edge of each lexan circle, so that I could put 8 rubber bands across the 2 circles. I put it together an realized the circles were bending and deflecting like crazy. 
 
-Then I got a stroke of genius. What if I use a normal sprocket and wrap chain around it to support the edge so that the lexan caves in less. And then I did that, and drilled more holes into the lexan and it actually worked.
+Then I got a stroke of genius. What if I use a normal sprocket and wrap chain around it to support the edge so that the lexan caves in less. And then I did that, and drilled more holes into the lexan and it actually worked. From there I went on to do some minor modifications and do some funny things just to see what would happen. 
+
+I also want to mention an important development. I was using very odd parts to construct my robots and make mechanisms and one of those parts I used was rubber links. In the VEX community, rubber links were either not cared about, or looked down upon in terms of usage b/c whatever it was used for.. it was apparently floppy. 
+
+Anyways, I built a flip down intake on a drive shaft using rubber links. The reason why I did this was b/c I wanted to have a flip down roller but I wanted it to be compliant in all directions, b/c I was worried it may bend the shaft. Using rubber links had many advantages, and allowed for a full compliant design in all directions so any deflection that was gonna come at it... we were prepared. 
+
+## Summer Building 
+
+I really enjoy summers. One of the reasons why I do is because I get to do what I want most of the time, and don't feel restricted to a schedule every single day (I am in the middle of work right now, writing this document to pass the time). I experimented on how to increase the speeds of my cycle times and optomization of my path and parts. 
+
+At this time the idea of a pooper (a ball excreting mechanism) was being talked about. I thought this was really really ugly, and I even made fun of a team called 1669X for how ugly it was. Turns out, I sorta got hooked into it, but decided not to build the pooper like how other teams were building it. 
+
+## The Winter Contingency 
+
+One day I got really bored with the design of the robot and wanted to build something more competitive. I also realized the gap between my top wheel and the edge of goal was problematic, and that caused some balls to fall out, or a reduced cycling time depending on how I programmed it. So what I did was move my holding tower way close up, so that whenever I got to a goal it was literally like 0.5" away. I also decided to switch up the geometry a bit. 
