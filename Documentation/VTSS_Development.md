@@ -5,6 +5,8 @@ I wanted to take this season a little more chillax, kinda of like in Tipping Poi
 
 See an overview with this animated graphic [here!](https://youtu.be/iQ8Dl0ZhW8Q?si=6DI0xGdQAKx4U9IW)
 
+VTSS just kicked in yo!
+
 ## How it works vs others
 
 We must first talk about what VTSS is for. In our case, we had a slingshot. In order for a slingshot to shoot things it must be 1. drawn back, 2. loaded, and then 3. released.
