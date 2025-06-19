@@ -3,9 +3,7 @@
 The 2022-2023 VEX Robotics Competition: Spin Up brought some interesting challenges for us when it came to designing a shooter to shoot discs into the basket. The creation of the VTSS + PTO or the "Variable Tensioning Slip System + Power TakeOff" was motivated by the need to shoot yellow VEX Spin Up discs at varying ranges (but with a slingshot). 
 I wanted to take this season a little more chillax, kinda of like in Tipping Point, but due to shifting team dynamics, it influenced nearly everything.
 
-See an overview with this animated graphic [here!](https://youtu.be/iQ8Dl0ZhW8Q?si=6DI0xGdQAKx4U9IW)
-
-VTSS just kicked in yo!
+[VTSS just kicked in yo!](https://youtu.be/iQ8Dl0ZhW8Q?si=6DI0xGdQAKx4U9IW)
 
 ## How it works vs others
 
