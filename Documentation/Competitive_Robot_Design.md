@@ -191,16 +191,4 @@ Other build styles focus on innovative uses of lexan (a kind of plastic sheet). 
 
 It doesn't just lead an industry, it inspires one. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+There are many other documents in this folder the describe the creation of robots and things, that I suggest checking out. Try "Dynamo Debut" or "VTSS Development" all interesting reads!
