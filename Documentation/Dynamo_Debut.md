@@ -2,11 +2,16 @@
 
 This page serves to document the origins of the team "Dynamo" and how it kind of left a mark at my school.
 
-## Preface
+## Preface and Gist 
 
+**Warning**. This document will be really long like my other ones. This will consist of sections 
+- Preface and Gist: this section
+- Origins and Probots: Context that may be helpful for understanding the motivations I had for the next section
+- Initial D: the monikered "Dynamo" is created
+- Twist of Fate: in short, COVID
+- The End?: Minecraft
+  
 After the 2018-2019 VEX Turning Point Season, me and a friend (Trav) came together to form a team for the upcoming 2019-2020 VEX Tower Takeover season. In hopes to change from our performance last year, the both of us took on a lot more responsibilities, such as programming, and end-to-end development of the robot. We also got rid of compartmentalization of tasks and sorta forced the both of us to learn each other's skills. 
-
-I also want to briefly mention I was in this 3 week algebra speedrun boot camp, but after getting a B I decided not to continue and quit the 3rd week to focus on building the robot. After looking at it, regardless if I did complete it, I think my academic progression transition from high school to university would've been more or less the same. This boot camp I think is pretty necessary in the plot of this story since it kinda made me focus less on school and more on robotics... which in a way made me better at school, and I started getting A's and stuff. 
 
 This overall is here for bookkeeping, and keeping track of events just in case anyone is interested. I also will include some of the design philosophies in here if anyone is interested in that, since the most popular video on my channel is [my anti-tip mechanism](https://youtu.be/pniv_0oHQTo?si=9h09nxq-lZYjWDH0). One concept I will bring up here which sorta of led to the creation of that is "designing with the future in mind". What that means exactly is hard to explain, but it doesn't involve brainless CAD, but rather it involves with thinking about how one component you design influences the other. 
 
@@ -33,3 +38,15 @@ Anyways towards the end, my team leader, Trav, and my mentor got a good lesson a
 We went to the state championship, proceed to lose every match, drop our robot off the table b/c our programmer wanted to test autonomous, and then go interview, win the design award, and then leave. 
 
 Winning that award though sorta made me feel something. All the hours of prepping and building that I have done have amounted to this. I had been blessed with the fruits of my labor at that time and I wanted to continue and push on. Even though we didn't qualify to worlds I went back home, and was like. So damn, this is what it's like to be a normal middle schooler who just goes home after school with nothing to do (of course I had band but to be honest we didn't do crap in there). 
+
+## Initial D 
+
+### May 2019
+  I started out my 2019 summer thinking about the future and what I wanted to do for the season. Immediately after the game reveal, I had already started building a base and prototyping with what designs we should do in order to win. I built a DR4B with a plunger claw, but then thought about how inefficient it was. In       order to intake cubes, I would have to go up and down, one at a time for the lift. Additionally, since I was so concerned with being able to score on towers, I   realized there was only one high tower, and there really wasn't any incentive to score on it, since the lower towers were much easier to score in. 
+
+### June 2019
+  I also want to briefly mention I was in this 3 week algebra speedrun boot camp, but after getting a B I decided not to continue and quit the 3rd week to focus on building the robot. After looking at it, regardless if I did complete it, I think my academic progression transition from high school to university would've been more or less the same. This boot camp I think is pretty necessary in the plot of this story since it kinda made me focus less on school and more on robotics... which in a way made me better at school, and I started getting A's and stuff. 
+
+Back to the story, so then after building that I started experimenting with building a "Goofy" robot, meaning there would be a tray with a double sided roller intake on it, and then the intake was attached to a 2-bar lift. So essentially this robot could achieve and do 99.99% of what was needed in order to win in this game. My build quality from the DR4B to the goofy degraded seriously, and it's no joke, while what I did was considered "ok" for most, I looked at it funny one day and realized this should be the final robot. My robot was too wide, and I didn't even know if it could intake cubes or not. 
+
+So then what I did was rebuild everything and start from the ground up once again.
