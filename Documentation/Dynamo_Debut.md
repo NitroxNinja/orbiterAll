@@ -56,3 +56,7 @@ So then what I did was rebuild everything and start from the ground up once agai
 ### July 2019 
 
 July rolled around, and by this time I built a traybot, but at what cost? I didn't know how to program that's what! So Trav sent me an example program to test and trouble shoot on the robot, and it took awhile to iron all the kinks out of the system but I got the arcade drive, intake, and tray buttons to somewhat work. 
+
+## August 2019 
+
+On August 10th, I uploaded the 1st video ever to my channel, [TT leek](https://youtu.be/aoGzytlxNvc?si=jnCuKEtx1WH7yAKF). Some team asked if we were in Virginia (we aren't). We said "No, not right now", to imply that we would be coming to Virginia. 
