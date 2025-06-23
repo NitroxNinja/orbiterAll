@@ -41,12 +41,18 @@ Winning that award though sorta made me feel something. All the hours of preppin
 
 ## Initial D 
 
+I took Trav to work with me, and then later on was suggested by my mentor to take another person, Tay. So thus we set off to build one of the best Tower Takeover robots in Texas, but not yet, as it hasn't matured yet enough/gotten to the iteration stage at this point. I'll be talking in a month-by-month format. 
+
 ### May 2019
-  I started out my 2019 summer thinking about the future and what I wanted to do for the season. Immediately after the game reveal, I had already started building a base and prototyping with what designs we should do in order to win. I built a DR4B with a plunger claw, but then thought about how inefficient it was. In       order to intake cubes, I would have to go up and down, one at a time for the lift. Additionally, since I was so concerned with being able to score on towers, I   realized there was only one high tower, and there really wasn't any incentive to score on it, since the lower towers were much easier to score in. 
+  I started out my 2019 summer thinking about the future and what I wanted to do for the season. Immediately after the game reveal, I had already started building a base and prototyping with what designs we should do in order to win. I built a DR4B with a plunger claw, but then thought about how inefficient it was. In order to intake cubes, I would have to go up and down, one at a time for the lift. Additionally, since I was so concerned with being able to score on towers, I   realized there was only one high tower, and there really wasn't any incentive to score on it, since the lower towers were much easier to score in. 
 
 ### June 2019
   I also want to briefly mention I was in this 3 week algebra speedrun boot camp, but after getting a B I decided not to continue and quit the 3rd week to focus on building the robot. After looking at it, regardless if I did complete it, I think my academic progression transition from high school to university would've been more or less the same. This boot camp I think is pretty necessary in the plot of this story since it kinda made me focus less on school and more on robotics... which in a way made me better at school, and I started getting A's and stuff. 
 
 Back to the story, so then after building that I started experimenting with building a "Goofy" robot, meaning there would be a tray with a double sided roller intake on it, and then the intake was attached to a 2-bar lift. So essentially this robot could achieve and do 99.99% of what was needed in order to win in this game. My build quality from the DR4B to the goofy degraded seriously, and it's no joke, while what I did was considered "ok" for most, I looked at it funny one day and realized this should be the final robot. My robot was too wide, and I didn't even know if it could intake cubes or not. 
 
-So then what I did was rebuild everything and start from the ground up once again.
+So then what I did was rebuild everything and start from the ground up once again. This time we sort of approached a 1727G built style and use hinges to bow out the rollers instead of having them on a screwjoint, which would flex pretty easily if there wasn't any support (non-cantilevered bar)
+
+### July 2019 
+
+July rolled around, and by this time I built a traybot, but at what cost? I didn't know how to program that's what! So Trav sent me an example program to test and trouble shoot on the robot, and it took awhile to iron all the kinks out of the system but I got the arcade drive, intake, and tray buttons to somewhat work. 
