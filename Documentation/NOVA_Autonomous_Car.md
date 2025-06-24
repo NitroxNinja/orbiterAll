@@ -11,16 +11,17 @@ Later, I want to improve the encoder mount that is currently being used to measu
 
 I then started to CAD out some other things such as a raspberry pi holder and cleaned up some of the wires near the On Logic Computer (we refer to this as the OBC, or onboard computer). This sort of puts into place the CAN (controller area network), where there are various subcomputers and embedded things within the car that we use for a variety of sensors and systems on the car. This raspberry pi holder would later evolve into the NAS cooler I had made (you can read `NAS_Cooling_Sys.md` in this documentation folder). 
 
+You're essentially doing the dirty work, and then you'll find you may or may not like using a wrench or screwdriver when you do this. I see for other fellow engineering students they don't seem to be well acquainted with using tools, even though I think it's really intuitive and repeatable. 
+
+When you are doing CAD for some small 3D prints or creating a new steering rack, you can have a lot of creative input into the design itself, but it'll feel boring at first, but after working with some of the electrical and software bits, you get to learn a little bit more about the car. Most of the making of this car will feel compartmentalized for no reason, but it doesn't have to be that way. Just ask questions and see how it's assembled, and you'll most likely gain an intuitive sense of how things work around the car, since there's a lot of "moving" parts. The best way to learn is to do stuff for the car. You'll know your passionate about autonomous cars when you start doing more and more as time progresses. 
+
 ![image](https://github.com/user-attachments/assets/1e4b522d-62c4-4093-ba46-a8ae845c88d7)
 
 ## Electrical Things 
 
 We use a 48V battery to power all the systems in our car, while we do need to step it down for 12V for most computerized components, the high power and performance we get from a 48V is cool, albeit dangerous for a bunch of people whom don't know what they are doing. I learned how to use a NVIDIA AGX Orin and paired it along with a ZedX camera, this will hopefully be a part of the CAN (controller area network). I also made a SLA battery protection thing for all the embedded systems and voltage step down things on the 3rd scale car (we are building a mini car). You may hear a lot of the NVIDIA Jetson terms thrown around, and I think it's a very cool computer used for mobile robotics. Super intense and well designed for low level high performance applications. 
 
-
-
-We use a solid state 128-channel Ouster Lidar. No it does not spin like the ones on Waymo, but it basically serves the same purpose, just a little more inaccurate, but also slightly more cheaper. 
-
+We use a solid state 128-channel Ouster LiDAR. No it does not spin like the ones on Waymo, but it basically serves the same purpose, just a little more inaccurate, but also slightly more cheaper. 
 
 ## Software Things
 
@@ -38,7 +39,11 @@ However, when configuring with it we realized we had issues with updating the im
 
 ## Newer Developments and Ambitions 
 
-The bottleneck in development as in right now comes with localization systems. Previously we were using SLAM KISS-ICP, however this can be pretty ineffective with the vehicle is doing fast movements or sudden turns... well which all cars kind of do on a daily basis. This is b/c SLAM KISS-ICP purely relies on LiDAR readings (which the Ouster 128-channel LiDAR provides around 10 Hz or 10 frames of point clouds a second). This leaves a lot of room for interpolation, which is technically a bad thing. Although LiDAR point clouds are extremly accurate of themselves in terms of capturing the environment, it takes a lot of computational power from the computer. I'd also like to briefly shout out to Mr. Kevin Ge, a fellow student at UTD who had partially inspired me to take on this task. He did most of the work for SLAM-KISS-ICP and now it's time for me to take it on. 
+The bottleneck in development as in right now comes with localization systems. Previously we were using SLAM KISS-ICP, however this can be pretty ineffective with the vehicle is doing fast movements or sudden turns... well which all cars kind of do on a daily basis. This is b/c SLAM KISS-ICP purely relies on LiDAR readings (which the Ouster 128-channel LiDAR provides around 10 Hz or 10 frames of point clouds a second). This leaves a lot of room for interpolation, which is technically a bad thing. I also want to mention the idea of "map-closures", where when a car arrives at the same spot it already hit, it will localize good or something. Honestly have no idea how it works I'll get back to you shortly. 
+
+Although LiDAR point clouds are extremly accurate of themselves in terms of capturing the environment, it takes a lot of computational power from the computer. I'd also like to briefly shout out to Mr. Kevin Ge, a fellow student at UTD who had partially inspired me to take on this task. He did most of the work for SLAM-KISS-ICP and now it's time for me to take it on. 
+
+Then we have path planning which is a whole 'nother fiasco of it's own. Dynamic occupancy grids, cost function following (NetworkX provides an algorithm to follow the cost function)
 
 One article I stumbled across evolves SLAM KISS-ICP and combines it with the usage of an 6-axis IMU (inertial measurement unit, x,y,z,roll, yaw, pitch). This method is called LIO-EKF (LiDAR Inertial Odometry
 using Extended Kalman Filter). The advantage of using a IMU comes with having a higher frame rate of readings (think more than 1000Hz) so you can measure how far you went forward, how much you turned, etc. 
