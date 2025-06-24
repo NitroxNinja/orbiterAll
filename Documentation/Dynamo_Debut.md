@@ -59,4 +59,4 @@ July rolled around, and by this time I built a traybot, but at what cost? I didn
 
 ## August 2019 
 
-On August 10th, I uploaded the 1st video ever to my channel, [TT leek](https://youtu.be/aoGzytlxNvc?si=jnCuKEtx1WH7yAKF). Some team asked if we were in Virginia (we aren't). We said "No, not right now", to imply that we would be coming to Virginia. 
+On August 10th, I uploaded the 1st video ever to my channel, [TT leek](https://youtu.be/aoGzytlxNvc?si=jnCuKEtx1WH7yAKF). Some team asked if we were in Virginia (we aren't). We said "No, not right now", to imply that we would be coming to Virginia. Around this time I think I was discovering how tangential velocity works, which means that with a wheel that spins at an RPM, the edge of the wheel will always cover more distance per rotation, than the inner part of a wheel. This is b/c 2 * pi * r is the circumference and the more you decrease the radius of rotation, the less circumference you get, the more, vice versa. 
