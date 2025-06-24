@@ -49,9 +49,12 @@ I took Trav to work with me, and then later on was suggested by my mentor to tak
 ### June 2019
   I also want to briefly mention I was in this 3 week algebra speedrun boot camp, but after getting a B I decided not to continue and quit the 3rd week to focus on building the robot. After looking at it, regardless if I did complete it, I think my academic progression transition from high school to university would've been more or less the same. This boot camp I think is pretty necessary in the plot of this story since it kinda made me focus less on school and more on robotics... which in a way made me better at school, and I started getting A's and stuff. 
 
-Back to the story, so then after building that I started experimenting with building a "Goofy" robot, meaning there would be a tray with a double sided roller intake on it, and then the intake was attached to a 2-bar lift. So essentially this robot could achieve and do 99.99% of what was needed in order to win in this game. My build quality from the DR4B to the goofy degraded seriously, and it's no joke, while what I did was considered "ok" for most, I looked at it funny one day and realized this should be the final robot. My robot was too wide, and I didn't even know if it could intake cubes or not. 
+I then took it apart, went to use my old DR4B, and put a 3 cube claw on it, and while it was nice, it didn't achieve the goals we wanted, which was to have a extremly good stacker. Plus later on we would find out rollers for scoring on towers was more convienient than having a claw lift up and go down into the pocket of the goal. We experimented with a drop down hook vs just a large claw, and realized both ideas were stupid 
 
-So then what I did was rebuild everything and start from the ground up once again. This time we sort of approached a 1727G built style and use hinges to bow out the rollers instead of having them on a screwjoint, which would flex pretty easily if there wasn't any support (non-cantilevered bar)
+
+Back to the story, so then after building that I started experimenting with building a "Goofy" robot, meaning there would be a tray with a double sided roller intake on it, and then the intake was attached to a 2-bar lift. So essentially this robot could achieve and do 99.99% of what was needed in order to win in this game. My build quality from the DR4B to the goofy degraded seriously, and it's no joke, while what I did was considered "ok" for most, I looked at it funny one day and realized this should be the final robot. My robot was too wide, and I didn't even know if it could intake cubes or not. The tray was too steep the intake wasn't low enough to touch the cubes adequately, and more. 
+
+So then what I did was rebuild everything and start from the ground up once again. This time we sort of approached a 1727G built style and use hinges to bow out the rollers instead of having them on a screwjoint, which would flex pretty easily if there wasn't any support (non-cantilevered bar). I attached a 135 degree angle bracket and put a screwjoint on it to mount the tray. Whenever the tray went forward to score into the zone, there were tiny green wheels that hooked onto the wedge bar and would bring the whole robot forward as it scored. I say that was pretty smart of me. 
 
 ### July 2019 
 
@@ -60,3 +63,29 @@ July rolled around, and by this time I built a traybot, but at what cost? I didn
 ## August 2019 
 
 On August 10th, I uploaded the 1st video ever to my channel, [TT leek](https://youtu.be/aoGzytlxNvc?si=jnCuKEtx1WH7yAKF). Some team asked if we were in Virginia (we aren't). We said "No, not right now", to imply that we would be coming to Virginia. Around this time I think I was discovering how tangential velocity works, which means that with a wheel that spins at an RPM, the edge of the wheel will always cover more distance per rotation, than the inner part of a wheel. This is b/c 2 * pi * r is the circumference and the more you decrease the radius of rotation, the less circumference you get, the more, vice versa. 
+
+### September 2019 
+
+I believe this was when I got inspiration to do the goofy design once more. What I learned is that you could place a boxed 3 wide c-channel on the back of your lift instead of having to place it underneath your tray. This not only saved space for the tray, but it also allowed me to lift up without having to raise the tray out of the way. This later could be developed into a cube-lock idea, where you could have multiple cubes in the tray while simultaneously lifting up. 
+
+Getting the ideas for compression and packaging to work was a little confusing, but after getting some ideas, we stuck with a hinge design for the bowing out of our intakes, and tried to angle the rollers and tray in a way where cubes would get sucked up into the tray in a good way. 
+
+### October 2019 
+
+Not much happened this month besides autonomous tuning. We were quickly realizing that our current controls method sucked, and our navigation sucked even more. We were running the motors purely based if they hit a setpoint and then stopped it immedieately with an internal electric brake. A running joke in our team was made because of this, after I made a function called "rotcotmot" which I made when I was tired making autonomous functions. 
+
+### November 2019 
+
+We had our first competition for the season in Longview, TX. We came in expecting not to do so well, but we shocked ourselves when we triple crowned. A team asked us not to run skills b/c we would've already been qualifying to state, or to purposely lose during finals, but we responded with silence/rejected them. From here, this is when I learned, not to always trust what strangers say, b/c it might cost you a win. In VEX, it's survival of the fittest, and you mostly put the desires of your team ahead of desires of other teams. 
+
+### December 2019 
+
+Rebuild. Mostly shifting of towers on the outside, and lowering of the tray, so that we could perhaps get more cubes. We also tested auton during this time. One of the most stupidiest things we did was try doing divorced rollers for our intake or China Rollers. These had so little compression, that we needed to create seperate c-channel supports on the side (thus adding more weight), it also had needed for our lift to be raised up a little bit (at resting position) which raised our CoG. Of course, the divorced setup had it's advantages. First off, we would know the intake would not break often due to it not having VEX chain. We also knew that the China rollers might be better at descoring cubes, but a well-enough designed American roller could do the same. 
+
+So we switched back to American, but 5408R stayed with a China Roller setup. They had spent nearly every meeting building, meanwhile we have spent nearly every meeting driving and practicing. This is one important lesson is that, if you are time-limited like us, every single moment you can spend with a field is important. Our brothers in 5408R did not listen to this advice and wanted to create the most effective and innovative stacker, they forget to give Danny, their driver, some practice. 
+
+### January 2020
+
+New year. New competitions. We went to the Hudson Mixed competition, planning to alliance with 5408R, but with a sudden turn of events, a stupid claw bot got first seed and started running it down the alliance selections. During the day, for skills we did pretty badly that time, but we nailed our interview. We didn't place too hot during the competition due to mishaps and the rigor of high school level robotics competitions, but we also didn't place too bad since we did pretty ok during qualifications. 
+
+I went into the Hudson Mixed elims with team 22204A, where we unfortunately had to beat 5408R to prevail in the finals. It was sad for us and sad for them (5408R)
