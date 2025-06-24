@@ -7,7 +7,9 @@ There is also an Arduino Uno R3 for fan control of the system, and an ESP32 for 
 
 One of the goals of this project is to create an overly-effective cooling system to bring down the 60 degrees celcius worth of heat down to like 25-30 degrees for a standard operating temperature. 
 
-THE PROBLEM IS the heat sync and the PCB "hat" restricts our cooling space significantly, 
+THE PROBLEM IS the heat sync and the PCB "hat" restricts our cooling space significantly, so we must design some sort of funnel or good case to handle that and such.
+
+![Screenshot 2025-05-27 141745](https://github.com/user-attachments/assets/aeacaddf-33b9-4e8e-8449-f710b0e14a0e)
 
 ## Testing 
 
