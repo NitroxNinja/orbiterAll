@@ -46,7 +46,9 @@ Although LiDAR point clouds are extremly accurate of themselves in terms of capt
 Then we have path planning which is a whole 'nother fiasco of it's own. Dynamic occupancy grids, cost function following (NetworkX provides an algorithm to follow the cost function)
 
 One article I stumbled across evolves SLAM KISS-ICP and combines it with the usage of an 6-axis IMU (inertial measurement unit, x,y,z,roll, yaw, pitch). This method is called LIO-EKF (LiDAR Inertial Odometry
-using Extended Kalman Filter). The advantage of using a IMU comes with having a higher frame rate of readings (think more than 1000Hz) so you can measure how far you went forward, how much you turned, etc. 
+using Extended Kalman Filter). The advantage of using a IMU comes with having a higher frame rate of readings (think more than 1000Hz) so you can measure how far you went forward, how much you turned, etc.
+
+For more resoures on what a Kalman filter is, it essentially takes noisy readings from a multiple sensors around the car that read position, heading, etc., and estimates the true value by linearizing these readings, knowing that the system is dynamic. An extended kalman filter is just that but on steroids, knowing that the dynamic system is nonlinear, and it has to do a whole extra math of trying to linearize a nonlinear system.  
 
 The problem comes with that using an IMU alone leaves localization prone to a lot of noise, or misrepresented readings from the environment. But if you have a LiDAR to sort of validate where you are, you can update the usage of a IMU per every point cloud generated. Thus, the interpolation of the various spots the car may have been is made a little more accurate, limiting drift and such. This is the part of what an "extended kalman filter" is, which takes a variety of sensors inputs and intreprets it to give a more accurate number/results for the computer. 
 
