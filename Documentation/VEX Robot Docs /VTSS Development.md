@@ -24,7 +24,7 @@ We had the advantage of having our PTO (power-takeoff) being placed in conjuncti
 
 *Drivetrain to Shooter PTO, you can see the piston below one of the pneumatic tanks*
 
-- I also need to mention how long it took to iterate the placement of the motors and gear ratios. While it only really took 2 weeks to switch from a 2 motor non-PTO shooter to a 
+- I also need to mention how long it took to iterate the placement of the motors and gear ratios. While it only really took 2 weeks to switch from a 2 motor non-PTO shooter to a PTO drive-to-shooter, you have to consider the previous other 2 weeks of R&D of packaging and poitics I had to deal with. It was pretty hard, but the idea came to my head very slowly. Past that we started to prototype newer bots faster, and more efficiently, by using CAD (please learn it if you want to up your development times). 
 
 We utilized this advantage to adjust how much we can **UNWIND** the winch, and therefore we can manipulate how much rubberband potential energy goes into the shot, since the sling shot would **stop prematurely** based off how much we unwound our winch. Thus at we tuned our slingshot based off the furthest distances we would need to shoot for the goal, which was around 13-15 ft. 
 
