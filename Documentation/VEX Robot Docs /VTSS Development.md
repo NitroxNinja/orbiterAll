@@ -24,6 +24,8 @@ We had the advantage of having our PTO (power-takeoff) being placed in conjuncti
 
 *Drivetrain to Shooter PTO, you can see the piston below one of the pneumatic tanks*
 
+- I also need to mention how long it took to iterate the placement of the motors and gear ratios. While it only really took 2 weeks to switch from a 2 motor non-PTO shooter to a 
+
 We utilized this advantage to adjust how much we can **UNWIND** the winch, and therefore we can manipulate how much rubberband potential energy goes into the shot, since the sling shot would **stop prematurely** based off how much we unwound our winch. Thus at we tuned our slingshot based off the furthest distances we would need to shoot for the goal, which was around 13-15 ft. 
 
 I roughly calculated with crappy FEA and hand calcs that our slingshot withstood the boundary conditions of 6 rubber bands by 1.5, so just enough for competition reasons. There was a slight deflection (for mechanical engineering nerds it means it went past yield strength), but it was so negligble that we didn't have to worry about it. You may be wondering, why would I allow for deflection if it's made of 5052-H32 Aluminum (which supposedly has high fatigue strength), the answer is, for weight savings, and just that I knew this sling shot tensioning was feasiable.  
