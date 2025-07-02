@@ -13,6 +13,7 @@ In order to draw a slingshot back we use a winch/pulley to bring the basket to a
 There are only 2 main sensors we use for the slingshot to function. The IMEs (integrated motor encoders), and a limit switch to detect when the slingshot arrived to be hooked to the piston. 
 
 ![image](https://github.com/user-attachments/assets/6c8910c8-f064-4933-91fe-85e7e89d5f46)
+
 *Limit switch here*
 
 You must note that now that hopper/basket is tensioned forward while in the stowed position. It is ready to fire while the piston is released. The amount of tensioning of the system would correlate to how far/how high the discs shot. This leads to one problem. You can control how far you can shoot only based off the number of rubber bands you have, and given the circumstances of VEX Spin Up, you needed to shoot from various distances at various times. What most teams did was a Tension Cutoff System (TCS), where they would break off some of the rubber bands off the basket so they would have a reduced shooting force. It accomplished the goal of shooting from far distances in the early game, and shooting from close distances in the late game (since this is when stakes got tough). This was the go-to solution for nearly all slingshot teams, however there are more neat elegant takes that allow a true, fully variable tensioning slip system, for shooting at all distances no matter what time it was in the game. 
@@ -20,6 +21,7 @@ You must note that now that hopper/basket is tensioned forward while in the stow
 We had the advantage of having our PTO (power-takeoff) being placed in conjunction with the drivetrain and shooter, so most of the time the motors would be powering the shooter, and only during times of defensive plays (not often), we could switch whenever we want to. This is advantageous as we don't need to worry about shuffling our intake, or utilizing extra pistons for a 2-way PTO (that we didn't have, and we didn't want extra moving parts on our system). 
 
 ![image](https://github.com/user-attachments/assets/8974baa6-295c-4873-8ae7-edb0f1683a73)
+
 *Drivetrain to Shooter PTO, you can see the piston below one of the pneumatic tanks*
 
 We utilized this advantage to adjust how much we can **UNWIND** the winch, and therefore we can manipulate how much rubberband potential energy goes into the shot, since the sling shot would **stop prematurely** based off how much we unwound our winch. Thus at we tuned our slingshot based off the furthest distances we would need to shoot for the goal, which was around 13-15 ft. 
@@ -77,6 +79,7 @@ We sorta knew what we wanted going into this game. We wanted to have atleast a 6
 - From there I built the intake, which my teammate claimed I copied someone else, and in reality I didn't, it's just mere coincidence but he's being a little jerky. This featured a series of reversing flex wheels, and a custom omni-roller set up where I had to rip apart a 4" omniwheel, and put an axle through it. I used a 3" flexwheel for the final bit.
 
 ![image](https://github.com/user-attachments/assets/f5ebdd64-5015-482c-a7cb-84bf284c8264)
+
 *I didn't copy anyone, I just made this after hours of building*
 
 - I mounted all the pneumatics and the hooks and packaging which was sorta neat (and remained in the final iteration) 
@@ -93,12 +96,15 @@ We sorta knew what we wanted going into this game. We wanted to have atleast a 6
 - UGH, now it's up to me to fix everything!
 
 ![image](https://github.com/user-attachments/assets/70e5321d-74c8-4377-b10f-d3e71b0697d4)
+
 *Gear shaft overmeshing resulting in misalignment.*
 
 ![image](https://github.com/user-attachments/assets/5a64b58b-7a55-48e6-8e96-8cb9af0d8729)
+
 *Divorced gear set up. None of the gears meshed properly so this resulted in either too much friction in some places, or slippage in some other places.*
 
 ![image](https://github.com/user-attachments/assets/60955822-a5ef-4683-80b7-180deff29fa5)
+
 *Gutted the sling-winch assembly for rebuild*
 
 - 
