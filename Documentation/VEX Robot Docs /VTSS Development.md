@@ -12,9 +12,15 @@ We must first talk about what VTSS is for. In our case, we had a slingshot. In o
 In order to draw a slingshot back we use a winch/pulley to bring the basket to a holding position, but you need to be able to hold the hopper/basket so you can load... so what we did was use a pneumatic piston to lock the sling into place. After which we would unwind the winch/pulley **BY AN AMOUNT** (this will be important later) since the piston was holding majority of the load. 
 There are only 2 main sensors we use for the slingshot to function. The IMEs (integrated motor encoders), and a limit switch to detect when the slingshot arrived to be hooked to the piston. 
 
+![image](https://github.com/user-attachments/assets/6c8910c8-f064-4933-91fe-85e7e89d5f46)
+*Limit switch here*
+
 You must note that now that hopper/basket is tensioned forward while in the stowed position. It is ready to fire while the piston is released. The amount of tensioning of the system would correlate to how far/how high the discs shot. This leads to one problem. You can control how far you can shoot only based off the number of rubber bands you have, and given the circumstances of VEX Spin Up, you needed to shoot from various distances at various times. What most teams did was a Tension Cutoff System (TCS), where they would break off some of the rubber bands off the basket so they would have a reduced shooting force. It accomplished the goal of shooting from far distances in the early game, and shooting from close distances in the late game (since this is when stakes got tough). This was the go-to solution for nearly all slingshot teams, however there are more neat elegant takes that allow a true, fully variable tensioning slip system, for shooting at all distances no matter what time it was in the game. 
 
 We had the advantage of having our PTO (power-takeoff) being placed in conjunction with the drivetrain and shooter, so most of the time the motors would be powering the shooter, and only during times of defensive plays (not often), we could switch whenever we want to. This is advantageous as we don't need to worry about shuffling our intake, or utilizing extra pistons for a 2-way PTO (that we didn't have, and we didn't want extra moving parts on our system). 
+
+![image](https://github.com/user-attachments/assets/8974baa6-295c-4873-8ae7-edb0f1683a73)
+*Drivetrain to Shooter PTO, you can see the piston below one of the pneumatic tanks*
 
 We utilized this advantage to adjust how much we can **UNWIND** the winch, and therefore we can manipulate how much rubberband potential energy goes into the shot, since the sling shot would **stop prematurely** based off how much we unwound our winch. Thus at we tuned our slingshot based off the furthest distances we would need to shoot for the goal, which was around 13-15 ft. 
 
@@ -69,6 +75,10 @@ We sorta knew what we wanted going into this game. We wanted to have atleast a 6
 
 - I first started off by going back to a 4 motor 360 RPM on 3.25" drive. It was sad, and slow. I followed the common formula to building all 5408 bases, yada yada yada. Then came to mounting the towers and standoff linear slide for the slingshot. Then came the gearbox for the winch (which did not have any PTO), and then building the slingshot hopper and mounting it to the 2 standoff rails. It was also stabilized with another 2 25 hole full c-channels on both sides (**this will be important later to remember as it changes on iteration 7**), just b/c I knew the factor of safety and the shear brunt of blows this sling shot was going to be unbearable. The geometry was super sick though since I had intended to use many right triangles to compliment the overall theme of what I hope the robot to become: not a random cube. 
 - From there I built the intake, which my teammate claimed I copied someone else, and in reality I didn't, it's just mere coincidence but he's being a little jerky. This featured a series of reversing flex wheels, and a custom omni-roller set up where I had to rip apart a 4" omniwheel, and put an axle through it. I used a 3" flexwheel for the final bit.
+
+![image](https://github.com/user-attachments/assets/f5ebdd64-5015-482c-a7cb-84bf284c8264)
+*I didn't copy anyone, I just made this after hours of building*
+
 - I mounted all the pneumatics and the hooks and packaging which was sorta neat (and remained in the final iteration) 
 - I had trouble with torque and tuning, and banding, since everytime the sling shot went up, the hopper would whiplash itself on the rails, bending the standoff rails, and also the hopper standoffs themselves. This required a lot of grease, and tuning to get it just right so it wouldn't tear itself apart. What was more annoying was the string getting stuck inside the motor ribcage of the gearbox (it'll make sense once I show pics). I started experimenting with a PTO and pneumatic shifting forks but this was thrown out for the sake of time and needing a working robot within a month.
 - I got everything to shoot, move, and intake, and now it was time to test it.
@@ -81,6 +91,17 @@ We sorta knew what we wanted going into this game. We wanted to have atleast a 6
 - He (my teammate) started experimented with a 2 motor intake to 2 motor shooter PTO, and the packaging for this was hell. It resembled more of factory conveyor belt system rather than a robot. The jungle of metal towers and triangles also made it difficult to work on (in practice). The difficult to access motors was even worse, and we would have not been able to create our VTSS.
 - When we actually built it, none of the gears meshed properly. It would either mesh too much causing friction, or mess too little causing slippage. He (my teammate whom intiated the slingshot in the first place), undersupported our drivetrain, utilized too many washers for niche and uncomptaible spacing, and bent the very c-channels he promised not to bend.
 - UGH, now it's up to me to fix everything!
+
+![image](https://github.com/user-attachments/assets/70e5321d-74c8-4377-b10f-d3e71b0697d4)
+*Gear shaft overmeshing resulting in misalignment.*
+
+![image](https://github.com/user-attachments/assets/5a64b58b-7a55-48e6-8e96-8cb9af0d8729)
+*Divorced gear set up. None of the gears meshed properly so this resulted in either too much friction in some places, or slippage in some other places.*
+
+![image](https://github.com/user-attachments/assets/60955822-a5ef-4683-80b7-180deff29fa5)
+*Gutted the sling-winch assembly for rebuild*
+
+- 
 
 ### Iteration 6 : COROLLA
 
