@@ -1,5 +1,7 @@
 # Intro 
 
+*This story takes place from 2023-2024*
+
 Ok I'll be honest, there wasn't really a demise for our senior year, we did start to win less and less (thus lose more and more) competitions compared to our past, but that was mostly due to stress and figuring stuff out for college. 
 
 Over Under was a game which featured a lot of pipes and bumps, and a soccer-net-esque goal that you can push balls into. In our level of play, drive-team members could put balls into robot to introduce to the field, which was the most unique element to this game. They would need to be shot over the pipe-bump, and then pushed into the goal which led to the development of some basic shooters. However it kind of lacked the need for a well-engineered solution, and rather the want for putting balls from one spot to another. This made VEX turn a robotics engineering competition to more of a drivers competition. It was suprising since this was one of the only times where my robot went from complicated to braindead simple, then back to well-engineered simple, yet complex. 
