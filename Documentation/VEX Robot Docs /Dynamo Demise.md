@@ -1,6 +1,6 @@
 # Intro 
 
-*This story takes place from 2023-2024*
+*This document takes place from 2023-2024*
 
 Ok I'll be honest, there wasn't really a demise for our senior year, we did start to win less and less (thus lose more and more) competitions compared to our past, but that was mostly due to stress and figuring stuff out for college. 
 
