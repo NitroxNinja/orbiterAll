@@ -43,8 +43,12 @@ Anyways, I built a flip down intake on a drive shaft using rubber links. The rea
 
 I really enjoy summers. One of the reasons why I do is because I get to do what I want most of the time, and don't feel restricted to a schedule every single day (I am in the middle of work right now, writing this document to pass the time). I experimented on how to increase the speeds of my cycle times and optomization of my path and parts. 
 
-At this time the idea of a pooper (a ball excreting mechanism) was being talked about. I thought this was really really ugly, and I even made fun of a team called 1669X for how ugly it was. Turns out, I sorta got hooked into it, but decided not to build the pooper like how other teams were building it. 
+At this time the idea of a pooper (a ball excreting mechanism) was being talked about. I thought this was really really ugly, and I even made fun of a team called 1669X for how ugly it was. Turns out, I sorta got hooked into it, but decided not to build the pooper like how other teams were building it... This will be explained a little later in *The Winter Contingency*
+
+## New School. New Developments 
+
+During the lockdown, I was stuck at home, even for classes. But that meant more time to mess around with the robot. This gave me time to experiment with fitting odometry wheels in a 25 wide c-channel robot (meaning it was very difficult to fit stuff. Change Up was like the playground for many teams to develop odometry systems, popularized by 5225A 2 years prior (in 2018). However at the same time, when I finished my odom program, it made me realize how clunky the packaging was for regular odom. Not to mention the weight as well, we still were using the 3-wire encoders  
 
 ## The Winter Contingency 
 
-One day I got really bored with the design of the robot and wanted to build something more competitive. I also realized the gap between my top wheel and the edge of goal was problematic, and that caused some balls to fall out, or a reduced cycling time depending on how I programmed it. So what I did was move my holding tower way close up, so that whenever I got to a goal it was literally like 0.5" away. I also decided to switch up the geometry a bit. 
+Named after the Halo Reach Mission *Winter Contingency*, one day I got really bored with the design of the robot and wanted to build something more competitive. I also realized the gap between my top wheel and the edge of goal was problematic, and that caused some balls to fall out, or a reduced cycling time depending on how I programmed it. So what I did was move my holding tower way close up, so that whenever I got to a goal it was literally like 0.5" away. I also decided to switch up the geometry a bit. 
