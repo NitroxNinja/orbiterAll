@@ -21,6 +21,8 @@ What I did next was mind blowing and fan blowing. I just got a fan, and then I p
 I also wanted to test the natural CFM of a fan at different rates, and while I didn't have a pitot tube, I can alternatively CAD up the blades, imaginary spin it at a certain RPM of which I can approximate, and then run it all through CFD. 
 This is b/c I wanted to add a sort of venturi effect to the cooling system since the heat sync is in a restricted place. But b/c we are pressuring this zone a lot, I think there should be a way for this air to pass by the system very quickly. We know that this compressed air will get hot, and then must be passed up through the system. So there is an another fan that is on top of the whole NAS which draws the hot, less dense air (in theory). 
 
+I also want to bring into important the development of the heat sink once again. I have ran into situations where the heat conductor was not properly applied to the system, and whatever input you put into the system... it didn't work. So don't just focus on building the right solution via programming, build the right solution also through physical design! 
+
 ## Softwares and Electronics 
 
 This features 
