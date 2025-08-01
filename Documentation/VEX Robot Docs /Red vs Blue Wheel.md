@@ -52,3 +52,13 @@ During the lockdown, I was stuck at home, even for classes. But that meant more 
 ## The Winter Contingency 
 
 Named after the Halo Reach Mission *Winter Contingency*, one day I got really bored with the design of the robot and wanted to build something more competitive. I also realized the gap between my top wheel and the edge of goal was problematic, and that caused some balls to fall out, or a reduced cycling time depending on how I programmed it. So what I did was move my holding tower way close up, so that whenever I got to a goal it was literally like 0.5" away. I also decided to switch up the geometry a bit. 
+
+I still wanted to keep the big red and blue wheel, but I wanted to match the geometry of another team, by building a tower, and attaching and 45 degree c channel as a triangle, and it would look cool. The main tower would have 2 rollers, and there would be a pooper. You must be wondering.. why would I put a pooper? Well I previously thought it looked ugly, but after seeing a nice implementation of one I was like "maybe it's not that bad". In hindsight, the tower triangle design would only work WITH a pooper so I sorta forced myself into building one. 
+
+I also had to start building some flip-out rollers. Previously I had a flipdown setup which could be compliant in nearly all directions, but with the packaging of the system flipout made more sense. I make a bulky screw joint, which kinda weighed a lot. In fact the CoG of the robot was put so far forward, it made tuning PID somewhat of a nightmare (since it would rock forward after every stop. 
+
+In an effort to save weight, I considered building a full lexan intake roller. And I did that... and it was really flimsy. So instead I got a c channel, make a lexan bracket, and built off the rest of the intake based off the lexan bracket. I realized in order to make it easily replacable (if the front broke for some reason), I'd divorce the lexan, so there would be 2 distinct sets of lexan. I'll show you a picture on what I mean here..
+
+(insert picture here later, right now don't have access to it!!!) 
+
+Once that was built, I got to work on the geometry and fixing the deadzones of the robot. 
