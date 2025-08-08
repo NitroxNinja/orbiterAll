@@ -5,3 +5,6 @@ This is an intro on how to build generational knowledge for robotics teams. Ther
 ## A brief history 
 
 When I first started doing VEX there were several people who were older than me. I happened to meet them during a summer camp when I was encouraged to go and learn (this was after elementary school or something). I previously got to see some of the older bots in the past and was somewhat uninterested b/c I played a lot of video games. Eventually when I started doing it though something inside of me clicked, 
+
+"Then something just snapped, something inside of me. I didn't care anymore. I didn't care about being better than Kakarot, I didn't care about being a super saiyan. I didn't care if I lived. I didn't care about anything! And then.. It happened."
+
