@@ -23,6 +23,10 @@ We use a 48V battery to power all the systems in our car, while we do need to st
 
 We use a solid state 128-channel Ouster LiDAR. No it does not spin like the ones on Waymo, but it basically serves the same purpose, just a little more inaccurate, but also slightly more cheaper. 
 
+## Software Things: Preliminary and boring things 
+
+When you to first start contributing to the software stack, you need to download a lot of things. Our code sort of builds off existing open source software, and you need to follow one big ol' tutorial from the docs. Oh yeah the docs. You should read those!
+
 ## Software Things
 
 The NOVA car uses a lot of software and things. We primarily work in a Linux based environment for testing and development. You should perhaps familiarize yourself with it. We also utilize Python as our main language unfortunately, although familarity in C++ will be helpful. Having Python for your programming environment will take a large computational toll on your compiler in my experience. I am unsure if you can edit in real time and make sure the bridge to CARLA can also work instantaneously but honestly that's a nerdy CS question. 
