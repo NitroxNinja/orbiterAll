@@ -8,4 +8,12 @@ You might be wondering, why would I choose to work at a place like this? Well...
 
 ### The place 
 
-I took a tour of the place and dang it smelt pretty.... interesting. It was very dusty, (mostly due to the combination of fiberglass-paper rolls, rock dust, SBS-asphalt mixtures burning, hot oil etc.). It was also plenty loud, so I often wore headphones or earbuds around the place to block out the sound. Did I mention that I also had to wear steel-toe boots? yeah that was a little uncomfortable. 
+I took a tour of the place and dang it smelt pretty.... interesting. It was very dusty, (mostly due to the combination of fiberglass-paper rolls, rock dust, SBS-asphalt mixtures burning, hot oil etc.). It was also plenty loud, so I often wore headphones or earbuds around the place to block out the sound. Did I mention that I also had to wear steel-toe boots? yeah that was a little uncomfortable. There seemed to be a lot of microplastics or dust in the air, but it all was within OSHA standards, so we were good (I saw this as a sign that, I would not like to work here long-term).  
+
+### The surrounds 
+
+After work I'd often stop by the park and walk around or go around town with my vehicle. At this time, I felt stuck, and away from society. While this place is an alright place to retire, I don't think it's a place to grow. People here don't seem to dream that often, because the dreams aren't there. Some people of Hillsboro and the surrounding towns just come to work the same job and do the same thing for the entire time. It's desolate, it's empty, and it's hopeless. The only way to connect to my family was through my phone and I was doing that often.  
+
+### Scheduling 
+
+Every weekend I drove back up to Dallas and did some fun things. 
